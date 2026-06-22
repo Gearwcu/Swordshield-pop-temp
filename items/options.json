@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Remove_weather_locations",
+        "type": "toggle",
+        "img": "images/options/Remove_weather_locations.png",
+        "loop": true,
+        "codes": "Remove_weather_locations"
+    },
+    {
+        "name": "Remove_weather_locations",
+        "loop": true,
+        "codes": "Remove_weather_locations",
+        "type": "toggle",
+        "img": "images/options/Remove_weather_locations.png"
+    },
+    {
+        "name": "DLC_enabled",
+        "loop": true,
+        "codes": "DLC_enabled",
+        "type": "toggle",
+        "img": "images/options/DLC_enabled.png"
+    }
+]

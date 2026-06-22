@@ -1,0 +1,2132 @@
+[// underneath sections is which map you find it on, you can have multiple sections
+    {
+        "name": "Special overworld spawn",
+        "children": [
+            {
+                "name": "__start__",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Abomasnow",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_mirror, snowing",
+                            "giants_seat, snowing",
+                            "giants_seat, snowstorm",
+                            "hammerlocke_hills, snowing",
+                            "hammerlocke_hills, snowstorm",
+                            "axews_eye, progressive_bike_2, snowing",
+                            "axews_eye, progressive_bike_2, snowstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Aegislash",
+                        "item_count": 1,
+                        "access_rules": [
+                            "fog, giants_cap"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Araquanid",
+                        "item_count": 1,
+                        "access_rules": [
+                            "raining, stony_wilderness",
+                            "stony_wilderness, thunderstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Avalugg",
+                        "item_count": 1,
+                        "access_rules": [
+                            "lake_of_outrage, progressive_bike_2, snowing",
+                            "lake_of_outrage, progressive_bike_2, snowstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Barbaracle",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dusty_bowl, overcast",
+                            "dusty_bowl, raining",
+                            "dusty_bowl, thunderstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Beartic",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_cap, snowing",
+                            "bridge_field, progressive_bike_2, snowing"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Beheeyem",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, normal_weather",
+                            "bridge_field, overcast",
+                            "bridge_field, snowing",
+                            "bridge_field, snowstorm",
+                            "bridge_field, intense_sun",
+                            "bridge_field, fog"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Bellossom",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_mirror, normal_weather",
+                            "giants_mirror, intense_sun",
+                            "fog, giants_mirror"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Bewear",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dappled_grove, normal_weather",
+                            "dappled_grove, overcast",
+                            "dappled_grove, raining",
+                            "dappled_grove, thunderstorm",
+                            "dappled_grove, snowing",
+                            "dappled_grove, snowstorm",
+                            "dappled_grove, intense_sun",
+                            "dappled_grove, sandstorm",
+                            "dappled_grove, fog",
+                            "bridge_field, normal_weather",
+                            "bridge_field, raining",
+                            "bridge_field, thunderstorm",
+                            "bridge_field, snowing",
+                            "bridge_field, snowstorm",
+                            "bridge_field, intense_sun",
+                            "bridge_field, sandstorm",
+                            "bridge_field, fog",
+                            "dappled_grove, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Bisharp",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_seat, normal_weather",
+                            "giants_seat, overcast",
+                            "giants_seat, raining",
+                            "giants_seat, thunderstorm",
+                            "giants_seat, snowing",
+                            "giants_seat, snowstorm",
+                            "giants_seat, intense_sun",
+                            "giants_seat, sandstorm",
+                            "fog, giants_seat",
+                            "giants_seat, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Boltund",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, north_lake_miloch",
+                            "north_lake_miloch, overcast",
+                            "north_lake_miloch, raining",
+                            "north_lake_miloch, thunderstorm",
+                            "north_lake_miloch, snowing",
+                            "north_lake_miloch, snowstorm",
+                            "intense_sun, north_lake_miloch",
+                            "north_lake_miloch, sandstorm",
+                            "fog, north_lake_miloch",
+                            "north_lake_miloch, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Bronzong",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, raining",
+                            "bridge_field, thunderstorm",
+                            "dusty_bowl, normal_weather",
+                            "dusty_bowl, raining",
+                            "dusty_bowl, thunderstorm",
+                            "dusty_bowl, snowing",
+                            "dusty_bowl, snowstorm",
+                            "east_lake_axewell, fog",
+                            "giants_seat, overcast",
+                            "giants_seat, raining",
+                            "giants_seat, thunderstorm",
+                            "raining, stony_wilderness",
+                            "stony_wilderness, thunderstorm",
+                            "snowing, stony_wilderness",
+                            "snowstorm, stony_wilderness",
+                            "fog, stony_wilderness"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Chandelure",
+                        "item_count": 1,
+                        "access_rules": [
+                            "intense_sun, lake_of_outrage, progressive_bike_2"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Cinccino",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_cap, normal_weather",
+                            "giants_cap, overcast",
+                            "fog, giants_cap"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Claydol",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, sandstorm",
+                            "dappled_grove, intense_sun",
+                            "dappled_grove, sandstorm",
+                            "dusty_bowl, overcast",
+                            "dusty_bowl, intense_sun",
+                            "dusty_bowl, sandstorm",
+                            "dusty_bowl, fog",
+                            "normal_weather, stony_wilderness",
+                            "overcast, stony_wilderness",
+                            "intense_sun, stony_wilderness",
+                            "sandstorm, stony_wilderness"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Clefable",
+                        "item_count": 1,
+                        "access_rules": [
+                            "fog, motostoke_riverbank"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Coalossal",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_cap, normal_weather",
+                            "giants_cap, overcast",
+                            "giants_cap, raining",
+                            "giants_cap, thunderstorm",
+                            "giants_cap, snowing",
+                            "giants_cap, snowstorm",
+                            "giants_cap, intense_sun",
+                            "giants_cap, sandstorm",
+                            "fog, giants_cap",
+                            "giants_cap, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Conkeldurr",
+                        "item_count": 1,
+                        "access_rules": [
+                            "motostoke_riverbank, normal_weather",
+                            "motostoke_riverbank, overcast",
+                            "motostoke_riverbank, raining",
+                            "motostoke_riverbank, thunderstorm",
+                            "motostoke_riverbank, snowing",
+                            "fog, motostoke_riverbank"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Copperajah",
+                        "item_count": 1,
+                        "access_rules": [
+                            "hammerlocke_hills, normal_weather",
+                            "hammerlocke_hills, overcast",
+                            "hammerlocke_hills, raining",
+                            "hammerlocke_hills, thunderstorm",
+                            "hammerlocke_hills, snowing",
+                            "hammerlocke_hills, snowstorm",
+                            "hammerlocke_hills, intense_sun",
+                            "hammerlocke_hills, sandstorm",
+                            "fog, hammerlocke_hills",
+                            "hammerlocke_hills, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Corviknight",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_cap, normal_weather",
+                            "giants_cap, overcast",
+                            "giants_cap, raining",
+                            "giants_cap, thunderstorm",
+                            "giants_cap, snowing",
+                            "giants_cap, snowstorm",
+                            "giants_cap, intense_sun",
+                            "giants_cap, sandstorm",
+                            "fog, giants_cap",
+                            "hammerlocke_hills, normal_weather",
+                            "hammerlocke_hills, overcast",
+                            "hammerlocke_hills, raining",
+                            "hammerlocke_hills, thunderstorm",
+                            "hammerlocke_hills, snowing",
+                            "hammerlocke_hills, snowstorm",
+                            "hammerlocke_hills, intense_sun",
+                            "hammerlocke_hills, sandstorm",
+                            "fog, hammerlocke_hills",
+                            "motostoke_riverbank, raining",
+                            "motostoke_riverbank, thunderstorm",
+                            "motostoke_riverbank, snowing",
+                            "motostoke_riverbank, snowstorm",
+                            "intense_sun, motostoke_riverbank",
+                            "motostoke_riverbank, sandstorm",
+                            "normal_weather, north_lake_miloch",
+                            "north_lake_miloch, overcast",
+                            "north_lake_miloch, raining",
+                            "north_lake_miloch, thunderstorm",
+                            "north_lake_miloch, snowing",
+                            "north_lake_miloch, snowstorm",
+                            "intense_sun, north_lake_miloch",
+                            "north_lake_miloch, sandstorm",
+                            "fog, north_lake_miloch",
+                            "normal_weather, watchtower_ruins",
+                            "overcast, watchtower_ruins",
+                            "raining, watchtower_ruins",
+                            "thunderstorm, watchtower_ruins",
+                            "snowing, watchtower_ruins",
+                            "snowstorm, watchtower_ruins",
+                            "intense_sun, watchtower_ruins",
+                            "sandstorm, watchtower_ruins",
+                            "fog, watchtower_ruins",
+                            "giants_cap, noweather",
+                            "hammerlocke_hills, noweather",
+                            "north_lake_miloch, noweather",
+                            "noweather, watchtower_ruins"
+                        ]
+                    },
+                    {
+                        "name": "Cramorant",
+                        "item_count": 1,
+                        "access_rules": [
+                            "axews_eye, normal_weather, progressive_bike_2",
+                            "axews_eye, overcast, progressive_bike_2",
+                            "axews_eye, progressive_bike_2, raining",
+                            "axews_eye, progressive_bike_2, thunderstorm",
+                            "axews_eye, progressive_bike_2, snowing",
+                            "axews_eye, progressive_bike_2, snowstorm",
+                            "axews_eye, intense_sun, progressive_bike_2",
+                            "axews_eye, progressive_bike_2, sandstorm",
+                            "axews_eye, fog, progressive_bike_2",
+                            "axews_eye, noweather, progressive_bike_2"
+                        ]
+                    },
+                    {
+                        "name": "Crawdaunt",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, south_lake_miloch",
+                            "south_lake_miloch, thunderstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Crustle",
+                        "item_count": 1,
+                        "access_rules": [
+                            "rolling_fields, sandstorm",
+                            "intense_sun, south_lake_miloch",
+                            "normal_weather, stony_wilderness",
+                            "overcast, stony_wilderness",
+                            "snowing, stony_wilderness",
+                            "snowstorm, stony_wilderness",
+                            "intense_sun, stony_wilderness",
+                            "sandstorm, stony_wilderness",
+                            "fog, stony_wilderness"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Diggersby",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, rolling_fields",
+                            "overcast, rolling_fields",
+                            "raining, rolling_fields",
+                            "rolling_fields, thunderstorm",
+                            "rolling_fields, snowing",
+                            "rolling_fields, snowstorm",
+                            "intense_sun, rolling_fields",
+                            "rolling_fields, sandstorm",
+                            "fog, rolling_fields",
+                            "snowing, west_lake_axewell",
+                            "snowstorm, west_lake_axewell",
+                            "intense_sun, west_lake_axewell",
+                            "sandstorm, west_lake_axewell",
+                            "noweather, rolling_fields"
+                        ]
+                    },
+                    {
+                        "name": "Doublade",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_cap, normal_weather",
+                            "giants_cap, overcast",
+                            "giants_cap, raining",
+                            "giants_cap, thunderstorm",
+                            "giants_cap, snowing",
+                            "giants_cap, snowstorm",
+                            "giants_cap, intense_sun",
+                            "giants_cap, sandstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Drapion",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, overcast",
+                            "bridge_field, intense_sun",
+                            "motostoke_riverbank, normal_weather",
+                            "motostoke_riverbank, raining",
+                            "motostoke_riverbank, thunderstorm",
+                            "intense_sun, motostoke_riverbank",
+                            "motostoke_riverbank, sandstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Drednaw",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_cap, normal_weather",
+                            "giants_cap, overcast",
+                            "giants_cap, raining",
+                            "giants_cap, thunderstorm",
+                            "giants_cap, snowing",
+                            "giants_cap, snowstorm",
+                            "giants_cap, intense_sun",
+                            "giants_cap, sandstorm",
+                            "fog, giants_cap",
+                            "normal_weather, west_lake_axewell",
+                            "overcast, west_lake_axewell",
+                            "raining, west_lake_axewell",
+                            "thunderstorm, west_lake_axewell",
+                            "snowing, west_lake_axewell",
+                            "snowstorm, west_lake_axewell",
+                            "intense_sun, west_lake_axewell",
+                            "sandstorm, west_lake_axewell",
+                            "fog, west_lake_axewell",
+                            "giants_cap, noweather",
+                            "noweather, west_lake_axewell"
+                        ]
+                    },
+                    {
+                        "name": "Drifblim",
+                        "item_count": 1,
+                        "access_rules": [
+                            "fog, north_lake_miloch",
+                            "fog, south_lake_miloch",
+                            "normal_weather, watchtower_ruins",
+                            "snowing, watchtower_ruins",
+                            "intense_sun, watchtower_ruins",
+                            "normal_weather, north_lake_miloch, progressive_bike_2",
+                            "normal_weather, progressive_bike_2, south_lake_miloch",
+                            "north_lake_miloch, overcast, progressive_bike_2",
+                            "overcast, progressive_bike_2, south_lake_miloch",
+                            "north_lake_miloch, progressive_bike_2, snowstorm",
+                            "progressive_bike_2, snowstorm, south_lake_miloch"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Dubwool",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, rolling_fields",
+                            "overcast, rolling_fields",
+                            "raining, rolling_fields",
+                            "rolling_fields, thunderstorm",
+                            "rolling_fields, snowing",
+                            "rolling_fields, snowstorm",
+                            "intense_sun, rolling_fields",
+                            "rolling_fields, sandstorm",
+                            "fog, rolling_fields",
+                            "noweather, rolling_fields"
+                        ]
+                    },
+                    {
+                        "name": "Duraludon",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_seat, normal_weather",
+                            "giants_seat, overcast",
+                            "giants_seat, raining",
+                            "giants_seat, thunderstorm",
+                            "giants_seat, snowing",
+                            "giants_seat, snowstorm",
+                            "giants_seat, intense_sun",
+                            "giants_seat, sandstorm",
+                            "fog, giants_seat",
+                            "giants_seat, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Dusclops",
+                        "item_count": 1,
+                        "access_rules": [
+                            "fog, giants_seat",
+                            "overcast, watchtower_ruins",
+                            "raining, watchtower_ruins",
+                            "thunderstorm, watchtower_ruins",
+                            "dusty_bowl, fog"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Dusknoir",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, stony_wilderness",
+                            "overcast, stony_wilderness",
+                            "raining, stony_wilderness",
+                            "stony_wilderness, thunderstorm",
+                            "snowing, stony_wilderness",
+                            "snowstorm, stony_wilderness",
+                            "intense_sun, stony_wilderness",
+                            "sandstorm, stony_wilderness",
+                            "fog, stony_wilderness",
+                            "noweather, stony_wilderness"
+                        ]
+                    },
+                    {
+                        "name": "Eldegoss",
+                        "item_count": 1,
+                        "access_rules": [
+                            "motostoke_riverbank, normal_weather",
+                            "motostoke_riverbank, overcast",
+                            "motostoke_riverbank, raining",
+                            "motostoke_riverbank, thunderstorm",
+                            "motostoke_riverbank, snowing",
+                            "motostoke_riverbank, snowstorm",
+                            "intense_sun, motostoke_riverbank",
+                            "motostoke_riverbank, sandstorm",
+                            "fog, motostoke_riverbank",
+                            "motostoke_riverbank, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Espeon",
+                        "item_count": 1,
+                        "access_rules": [
+                            "lake_of_outrage, overcast, progressive_bike_2"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Excadrill",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_cap, intense_sun",
+                            "giants_cap, sandstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Ferrothorn",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, normal_weather",
+                            "bridge_field, overcast",
+                            "bridge_field, raining",
+                            "bridge_field, thunderstorm",
+                            "bridge_field, snowing",
+                            "bridge_field, snowstorm",
+                            "bridge_field, intense_sun",
+                            "bridge_field, sandstorm",
+                            "bridge_field, fog",
+                            "bridge_field, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Flareon",
+                        "item_count": 1,
+                        "access_rules": [
+                            "intense_sun, lake_of_outrage, progressive_bike_2"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Flygon",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dusty_bowl, normal_weather",
+                            "dusty_bowl, sandstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Galarian Weezing",
+                        "item_count": 1,
+                        "access_rules": [
+                            "east_lake_axewell, normal_weather",
+                            "east_lake_axewell, overcast",
+                            "east_lake_axewell, raining",
+                            "east_lake_axewell, thunderstorm",
+                            "east_lake_axewell, snowing",
+                            "east_lake_axewell, snowstorm",
+                            "east_lake_axewell, intense_sun",
+                            "east_lake_axewell, sandstorm",
+                            "east_lake_axewell, fog",
+                            "east_lake_axewell, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Gallade",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, normal_weather, progressive_bike_2",
+                            "bridge_field, overcast, progressive_bike_2",
+                            "bridge_field, progressive_bike_2, raining",
+                            "bridge_field, progressive_bike_2, thunderstorm",
+                            "bridge_field, intense_sun, progressive_bike_2",
+                            "bridge_field, progressive_bike_2, sandstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Galvantula",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_cap, thunderstorm",
+                            "giants_seat, thunderstorm",
+                            "giants_seat, raining",
+                            "normal_weather, south_lake_miloch",
+                            "overcast, south_lake_miloch",
+                            "raining, south_lake_miloch",
+                            "south_lake_miloch, thunderstorm",
+                            "snowing, south_lake_miloch",
+                            "snowstorm, south_lake_miloch",
+                            "intense_sun, south_lake_miloch",
+                            "sandstorm, south_lake_miloch",
+                            "fog, south_lake_miloch",
+                            "noweather, south_lake_miloch"
+                        ]
+                    },
+                    {
+                        "name": "Garbodor",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, normal_weather",
+                            "bridge_field, overcast",
+                            "bridge_field, raining",
+                            "bridge_field, thunderstorm",
+                            "bridge_field, snowing",
+                            "bridge_field, snowstorm",
+                            "bridge_field, intense_sun",
+                            "bridge_field, sandstorm",
+                            "bridge_field, fog",
+                            "east_lake_axewell, normal_weather",
+                            "east_lake_axewell, overcast",
+                            "east_lake_axewell, raining",
+                            "east_lake_axewell, thunderstorm",
+                            "bridge_field, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Gardevoir",
+                        "item_count": 1,
+                        "access_rules": [
+                            "fog, rolling_fields",
+                            "lake_of_outrage, normal_weather, progressive_bike_2",
+                            "fog, lake_of_outrage, progressive_bike_2"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Gengar",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_cap, normal_weather",
+                            "giants_cap, overcast",
+                            "fog, giants_cap",
+                            "giants_cap, thunderstorm",
+                            "giants_cap, snowstorm",
+                            "giants_cap, intense_sun",
+                            "giants_cap, sandstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Gigalith",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dusty_bowl, normal_weather",
+                            "dusty_bowl, intense_sun"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Glaceon",
+                        "item_count": 1,
+                        "access_rules": [
+                            "lake_of_outrage, progressive_bike_2, snowing",
+                            "lake_of_outrage, progressive_bike_2, snowstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Glalie",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_cap, snowing",
+                            "giants_cap, snowstorm",
+                            "giants_seat, snowing",
+                            "giants_seat, snowstorm",
+                            "snowing, watchtower_ruins",
+                            "snowstorm, watchtower_ruins"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Golisopod",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, normal_weather",
+                            "bridge_field, raining",
+                            "bridge_field, thunderstorm",
+                            "giants_cap, raining"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Golurk",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dusty_bowl, overcast",
+                            "dusty_bowl, raining",
+                            "dusty_bowl, thunderstorm",
+                            "dusty_bowl, snowing",
+                            "dusty_bowl, snowstorm",
+                            "dusty_bowl, fog",
+                            "giants_seat, sandstorm",
+                            "normal_weather, stony_wilderness",
+                            "overcast, stony_wilderness",
+                            "raining, stony_wilderness",
+                            "stony_wilderness, thunderstorm",
+                            "snowing, stony_wilderness",
+                            "snowstorm, stony_wilderness",
+                            "intense_sun, stony_wilderness",
+                            "sandstorm, stony_wilderness",
+                            "fog, stony_wilderness",
+                            "normal_weather, watchtower_ruins",
+                            "intense_sun, watchtower_ruins",
+                            "sandstorm, watchtower_ruins",
+                            "fog, watchtower_ruins",
+                            "noweather, stony_wilderness"
+                        ]
+                    },
+                    {
+                        "name": "Gourgeist",
+                        "item_count": 1,
+                        "access_rules": [
+                            "hammerlocke_hills, normal_weather",
+                            "hammerlocke_hills, overcast",
+                            "hammerlocke_hills, raining",
+                            "hammerlocke_hills, thunderstorm",
+                            "hammerlocke_hills, snowing",
+                            "hammerlocke_hills, snowstorm",
+                            "hammerlocke_hills, intense_sun",
+                            "hammerlocke_hills, sandstorm",
+                            "fog, hammerlocke_hills"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Grapploct",
+                        "item_count": 1,
+                        "access_rules": [
+                            "lake_of_outrage, noweather, progressive_bike_2",
+                            "lake_of_outrage, normal_weather, progressive_bike_2",
+                            "lake_of_outrage, overcast, progressive_bike_2",
+                            "lake_of_outrage, progressive_bike_2, raining",
+                            "lake_of_outrage, progressive_bike_2, thunderstorm",
+                            "lake_of_outrage, progressive_bike_2, snowing",
+                            "lake_of_outrage, progressive_bike_2, snowstorm",
+                            "intense_sun, lake_of_outrage, progressive_bike_2",
+                            "lake_of_outrage, progressive_bike_2, sandstorm",
+                            "fog, lake_of_outrage, progressive_bike_2",
+                            "normal_weather, progressive_bike_2, west_lake_axewell",
+                            "overcast, progressive_bike_2, west_lake_axewell",
+                            "progressive_bike_2, snowing, west_lake_axewell",
+                            "progressive_bike_2, snowstorm, west_lake_axewell",
+                            "intense_sun, progressive_bike_2, west_lake_axewell",
+                            "progressive_bike_2, sandstorm, west_lake_axewell",
+                            "fog, progressive_bike_2, west_lake_axewell"
+                        ]
+                    },
+                    {
+                        "name": "Greedent",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, normal_weather",
+                            "bridge_field, overcast",
+                            "bridge_field, raining",
+                            "bridge_field, thunderstorm",
+                            "bridge_field, snowing",
+                            "bridge_field, snowstorm",
+                            "bridge_field, intense_sun",
+                            "bridge_field, sandstorm",
+                            "bridge_field, fog",
+                            "bridge_field, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Grimmsnarl",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, stony_wilderness",
+                            "overcast, stony_wilderness",
+                            "raining, stony_wilderness",
+                            "stony_wilderness, thunderstorm",
+                            "snowing, stony_wilderness",
+                            "snowstorm, stony_wilderness",
+                            "intense_sun, stony_wilderness",
+                            "sandstorm, stony_wilderness",
+                            "fog, stony_wilderness",
+                            "noweather, stony_wilderness"
+                        ]
+                    },
+                    {
+                        "name": "Hatterene",
+                        "item_count": 1,
+                        "access_rules": [
+                            "lake_of_outrage, normal_weather, progressive_bike_2",
+                            "lake_of_outrage, overcast, progressive_bike_2",
+                            "lake_of_outrage, progressive_bike_2, raining",
+                            "lake_of_outrage, progressive_bike_2, thunderstorm",
+                            "lake_of_outrage, progressive_bike_2, snowing",
+                            "lake_of_outrage, progressive_bike_2, snowstorm",
+                            "intense_sun, lake_of_outrage, progressive_bike_2",
+                            "lake_of_outrage, progressive_bike_2, sandstorm",
+                            "fog, lake_of_outrage, progressive_bike_2",
+                            "lake_of_outrage, noweather, progressive_bike_2"
+                        ]
+                    },
+                    {
+                        "name": "Haunter",
+                        "item_count": 1,
+                        "access_rules": [
+                            "raining, rolling_fields",
+                            "rolling_fields, thunderstorm",
+                            "overcast, watchtower_ruins",
+                            "raining, watchtower_ruins",
+                            "thunderstorm, watchtower_ruins",
+                            "snowstorm, watchtower_ruins",
+                            "sandstorm, watchtower_ruins",
+                            "fog, watchtower_ruins"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Hawlucha",
+                        "item_count": 1,
+                        "access_rules": [
+                            "hammerlocke_hills, normal_weather",
+                            "hammerlocke_hills, overcast",
+                            "hammerlocke_hills, raining",
+                            "hammerlocke_hills, thunderstorm",
+                            "hammerlocke_hills, snowing",
+                            "hammerlocke_hills, snowstorm",
+                            "hammerlocke_hills, intense_sun",
+                            "hammerlocke_hills, sandstorm",
+                            "fog, hammerlocke_hills",
+                            "hammerlocke_hills, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Haxorus",
+                        "item_count": 1,
+                        "access_rules": [
+                            "axews_eye, normal_weather, progressive_bike_2",
+                            "axews_eye, overcast, progressive_bike_2",
+                            "axews_eye, progressive_bike_2, raining",
+                            "axews_eye, intense_sun, progressive_bike_2",
+                            "axews_eye, progressive_bike_2, sandstorm",
+                            "axews_eye, fog, progressive_bike_2"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Jolteon",
+                        "item_count": 1,
+                        "access_rules": [
+                            "lake_of_outrage, progressive_bike_2, thunderstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Kingler",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, west_lake_axewell",
+                            "normal_weather, south_lake_miloch"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Kirlia",
+                        "item_count": 1,
+                        "access_rules": [
+                            "fog, rolling_fields"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Klang",
+                        "item_count": 1,
+                        "access_rules": [
+                            "hammerlocke_hills, normal_weather",
+                            "hammerlocke_hills, overcast",
+                            "hammerlocke_hills, raining",
+                            "hammerlocke_hills, snowing"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Klinklang",
+                        "item_count": 1,
+                        "access_rules": [
+                            "hammerlocke_hills, thunderstorm",
+                            "hammerlocke_hills, snowstorm",
+                            "hammerlocke_hills, intense_sun",
+                            "hammerlocke_hills, sandstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Tyranitar",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dusty_bowl, normal_weather",
+                            "dusty_bowl, snowing",
+                            "dusty_bowl, snowstorm",
+                            "dusty_bowl, intense_sun",
+                            "dusty_bowl, sandstorm",
+                            "dusty_bowl, fog"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Kommo-o",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dusty_bowl, normal_weather",
+                            "dusty_bowl, snowing",
+                            "dusty_bowl, snowstorm",
+                            "dusty_bowl, intense_sun",
+                            "dusty_bowl, sandstorm",
+                            "dusty_bowl, fog"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Leafeon",
+                        "item_count": 1,
+                        "access_rules": [
+                            "lake_of_outrage, normal_weather, progressive_bike_2"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Liepard",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, north_lake_miloch",
+                            "north_lake_miloch, overcast",
+                            "north_lake_miloch, raining",
+                            "north_lake_miloch, thunderstorm",
+                            "north_lake_miloch, snowing",
+                            "north_lake_miloch, snowstorm",
+                            "intense_sun, north_lake_miloch",
+                            "north_lake_miloch, sandstorm",
+                            "fog, north_lake_miloch",
+                            "north_lake_miloch, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Linoone",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, normal_weather",
+                            "bridge_field, overcast",
+                            "bridge_field, raining",
+                            "bridge_field, thunderstorm",
+                            "bridge_field, snowing",
+                            "bridge_field, snowstorm",
+                            "bridge_field, intense_sun",
+                            "bridge_field, sandstorm",
+                            "bridge_field, fog",
+                            "bridge_field, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Lucario",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, north_lake_miloch"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Ludicolo",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dappled_grove, normal_weather",
+                            "dappled_grove, overcast",
+                            "dappled_grove, raining",
+                            "dappled_grove, thunderstorm",
+                            "dappled_grove, fog"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Machamp",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_mirror, normal_weather",
+                            "giants_mirror, overcast",
+                            "giants_mirror, thunderstorm",
+                            "giants_mirror, snowstorm",
+                            "giants_mirror, intense_sun",
+                            "giants_mirror, sandstorm",
+                            "fog, giants_mirror"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Machoke",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, south_lake_miloch",
+                            "overcast, south_lake_miloch",
+                            "raining, south_lake_miloch",
+                            "south_lake_miloch, thunderstorm",
+                            "snowing, south_lake_miloch",
+                            "snowstorm, south_lake_miloch",
+                            "intense_sun, south_lake_miloch",
+                            "sandstorm, south_lake_miloch",
+                            "fog, south_lake_miloch",
+                            "noweather, south_lake_miloch"
+                        ]
+                    },
+                    {
+                        "name": "Manectric",
+                        "item_count": 1,
+                        "access_rules": [
+                            "rolling_fields, thunderstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Mime Jr.",
+                        "item_count": 1,
+                        "access_rules": [
+                            "rolling_fields, snowstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Mimikyu",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, fog"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Mudsdale",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, rolling_fields",
+                            "overcast, rolling_fields",
+                            "intense_sun, rolling_fields",
+                            "rolling_fields, sandstorm",
+                            "fog, rolling_fields",
+                            "dusty_bowl, normal_weather",
+                            "dusty_bowl, intense_sun",
+                            "dusty_bowl, sandstorm",
+                            "dusty_bowl, fog",
+                            "east_lake_axewell, intense_sun",
+                            "east_lake_axewell, sandstorm",
+                            "giants_seat, intense_sun"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Musharna",
+                        "item_count": 1,
+                        "access_rules": [
+                            "fog, giants_seat",
+                            "bridge_field, fog, progressive_bike_2"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Ninjask",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, rolling_fields",
+                            "overcast, rolling_fields",
+                            "raining, rolling_fields",
+                            "rolling_fields, thunderstorm",
+                            "rolling_fields, snowing",
+                            "rolling_fields, snowstorm",
+                            "intense_sun, rolling_fields",
+                            "rolling_fields, sandstorm",
+                            "fog, rolling_fields",
+                            "noweather, rolling_fields"
+                        ]
+                    },
+                    {
+                        "name": "Noctowl",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, snowing"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Noivern",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, normal_weather",
+                            "bridge_field, overcast",
+                            "bridge_field, raining",
+                            "bridge_field, thunderstorm",
+                            "bridge_field, snowstorm",
+                            "bridge_field, intense_sun",
+                            "bridge_field, sandstorm",
+                            "bridge_field, fog"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Obstagoon",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, normal_weather",
+                            "bridge_field, overcast",
+                            "bridge_field, raining",
+                            "bridge_field, thunderstorm",
+                            "bridge_field, snowing",
+                            "bridge_field, snowstorm",
+                            "bridge_field, intense_sun",
+                            "bridge_field, sandstorm",
+                            "bridge_field, fog",
+                            "bridge_field, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Onix",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, rolling_fields",
+                            "overcast, rolling_fields",
+                            "raining, rolling_fields",
+                            "rolling_fields, thunderstorm",
+                            "rolling_fields, snowing",
+                            "rolling_fields, snowstorm",
+                            "intense_sun, rolling_fields",
+                            "rolling_fields, sandstorm",
+                            "fog, rolling_fields",
+                            "noweather, rolling_fields"
+                        ]
+                    },
+                    {
+                        "name": "Orbeetle",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_cap, normal_weather",
+                            "giants_cap, overcast",
+                            "giants_cap, raining",
+                            "giants_cap, thunderstorm",
+                            "giants_cap, snowing",
+                            "giants_cap, snowstorm",
+                            "giants_cap, intense_sun",
+                            "giants_cap, sandstorm",
+                            "fog, giants_cap",
+                            "giants_cap, noweather",
+                            "dappled_grove, normal_weather",
+                            "dappled_grove, overcast",
+                            "dappled_grove, raining",
+                            "dappled_grove, thunderstorm",
+                            "dappled_grove, snowing",
+                            "dappled_grove, snowstorm",
+                            "dappled_grove, intense_sun",
+                            "dappled_grove, sandstorm",
+                            "dappled_grove, fog",
+                            "dappled_grove, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Palpitoad",
+                        "item_count": 1,
+                        "access_rules": [
+                            "raining, south_lake_miloch",
+                            "south_lake_miloch, thunderstorm",
+                            "overcast, west_lake_axewell",
+                            "snowing, west_lake_axewell",
+                            "snowstorm, west_lake_axewell",
+                            "sandstorm, west_lake_axewell",
+                            "fog, west_lake_axewell"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Pangoro",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, overcast",
+                            "bridge_field, intense_sun",
+                            "dappled_grove, snowing",
+                            "dappled_grove, snowstorm",
+                            "dappled_grove, intense_sun",
+                            "dappled_grove, sandstorm",
+                            "normal_weather, rolling_fields",
+                            "overcast, rolling_fields",
+                            "raining, rolling_fields",
+                            "rolling_fields, thunderstorm",
+                            "intense_sun, rolling_fields"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Pelipper",
+                        "item_count": 1,
+                        "access_rules": [
+                            "raining, rolling_fields",
+                            "raining, west_lake_axewell",
+                            "east_lake_axewell, raining",
+                            "thunderstorm, west_lake_axewell",
+                            "east_lake_axewell, thunderstorm",
+                            "north_lake_miloch, raining",
+                            "north_lake_miloch, thunderstorm",
+                            "overcast, progressive_bike_2, south_lake_miloch",
+                            "progressive_bike_2, raining, south_lake_miloch",
+                            "progressive_bike_2, south_lake_miloch, thunderstorm",
+                            "intense_sun, progressive_bike_2, south_lake_miloch",
+                            "normal_weather, progressive_bike_2, west_lake_axewell",
+                            "east_lake_axewell, normal_weather, progressive_bike_2",
+                            "overcast, progressive_bike_2, west_lake_axewell",
+                            "east_lake_axewell, overcast, progressive_bike_2",
+                            "intense_sun, progressive_bike_2, west_lake_axewell",
+                            "east_lake_axewell, intense_sun, progressive_bike_2",
+                            "intense_sun, north_lake_miloch, progressive_bike_2",
+                            "bridge_field, intense_sun, progressive_bike_2",
+                            "intense_sun, lake_of_outrage, progressive_bike_2"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Perrserker",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_mirror, normal_weather",
+                            "giants_mirror, overcast",
+                            "giants_mirror, raining",
+                            "giants_mirror, thunderstorm",
+                            "giants_mirror, snowing",
+                            "giants_mirror, snowstorm",
+                            "giants_mirror, intense_sun",
+                            "giants_mirror, sandstorm",
+                            "fog, giants_mirror",
+                            "giants_mirror, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Pikachu",
+                        "item_count": 1,
+                        "access_rules": [
+                            "rolling_fields, thunderstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Piloswine",
+                        "item_count": 1,
+                        "access_rules": [
+                            "rolling_fields, snowing",
+                            "rolling_fields, snowstorm",
+                            "east_lake_axewell, snowing",
+                            "east_lake_axewell, snowstorm",
+                            "dusty_bowl, snowing",
+                            "dusty_bowl, snowstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Quagsire",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, west_lake_axewell",
+                            "overcast, west_lake_axewell",
+                            "raining, west_lake_axewell",
+                            "thunderstorm, west_lake_axewell",
+                            "fog, west_lake_axewell"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Rhydon",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, intense_sun",
+                            "bridge_field, sandstorm",
+                            "dusty_bowl, raining",
+                            "dusty_bowl, thunderstorm",
+                            "dusty_bowl, snowing",
+                            "giants_seat, normal_weather",
+                            "giants_seat, raining",
+                            "intense_sun, motostoke_riverbank",
+                            "motostoke_riverbank, sandstorm",
+                            "normal_weather, stony_wilderness",
+                            "overcast, stony_wilderness",
+                            "raining, stony_wilderness",
+                            "stony_wilderness, thunderstorm",
+                            "snowing, stony_wilderness",
+                            "snowstorm, stony_wilderness",
+                            "intense_sun, stony_wilderness",
+                            "sandstorm, stony_wilderness",
+                            "fog, stony_wilderness",
+                            "noweather, stony_wilderness",
+                            "lake_of_outrage, progressive_bike_2, sandstorm"
+                        ]
+                    },
+                    {
+                        "name": "Ribombee",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, normal_weather",
+                            "bridge_field, overcast",
+                            "motostoke_riverbank, overcast",
+                            "motostoke_riverbank, snowing",
+                            "motostoke_riverbank, snowstorm",
+                            "fog, motostoke_riverbank"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Roselia",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, rolling_fields",
+                            "overcast, rolling_fields",
+                            "rolling_fields, snowing",
+                            "intense_sun, rolling_fields",
+                            "rolling_fields, sandstorm",
+                            "fog, rolling_fields"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Roserade",
+                        "item_count": 1,
+                        "access_rules": [
+                            "hammerlocke_hills, overcast",
+                            "fog, hammerlocke_hills"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Sandaconda",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dusty_bowl, normal_weather",
+                            "dusty_bowl, overcast",
+                            "dusty_bowl, raining",
+                            "dusty_bowl, thunderstorm",
+                            "dusty_bowl, snowing",
+                            "dusty_bowl, snowstorm",
+                            "dusty_bowl, intense_sun",
+                            "dusty_bowl, sandstorm",
+                            "dusty_bowl, fog",
+                            "dusty_bowl, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Seismitoad",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, normal_weather",
+                            "bridge_field, overcast",
+                            "bridge_field, raining",
+                            "bridge_field, thunderstorm",
+                            "bridge_field, fog",
+                            "dappled_grove, raining",
+                            "dappled_grove, thunderstorm",
+                            "dusty_bowl, raining",
+                            "dusty_bowl, thunderstorm",
+                            "giants_cap, raining",
+                            "giants_mirror, raining",
+                            "north_lake_miloch, overcast",
+                            "north_lake_miloch, thunderstorm",
+                            "axews_eye, progressive_bike_2, thunderstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Shiftry",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dappled_grove, normal_weather",
+                            "dappled_grove, overcast",
+                            "dappled_grove, raining",
+                            "dappled_grove, thunderstorm",
+                            "dappled_grove, fog"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Shiinotic",
+                        "item_count": 1,
+                        "access_rules": [
+                            "lake_of_outrage, overcast, progressive_bike_2",
+                            "lake_of_outrage, progressive_bike_2, raining",
+                            "lake_of_outrage, progressive_bike_2, thunderstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Shuckle",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dusty_bowl, normal_weather",
+                            "dusty_bowl, overcast",
+                            "dusty_bowl, raining",
+                            "dusty_bowl, thunderstorm",
+                            "dusty_bowl, snowing",
+                            "dusty_bowl, snowstorm",
+                            "dusty_bowl, intense_sun",
+                            "dusty_bowl, sandstorm",
+                            "dusty_bowl, fog",
+                            "dusty_bowl, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Sigilyph",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dusty_bowl, overcast",
+                            "dusty_bowl, raining",
+                            "dusty_bowl, thunderstorm",
+                            "dusty_bowl, snowing",
+                            "dusty_bowl, snowstorm",
+                            "dusty_bowl, intense_sun",
+                            "dusty_bowl, fog",
+                            "motostoke_riverbank, normal_weather",
+                            "motostoke_riverbank, overcast",
+                            "motostoke_riverbank, raining",
+                            "motostoke_riverbank, thunderstorm",
+                            "motostoke_riverbank, snowing",
+                            "motostoke_riverbank, snowstorm",
+                            "intense_sun, motostoke_riverbank",
+                            "motostoke_riverbank, sandstorm",
+                            "fog, motostoke_riverbank",
+                            "normal_weather, stony_wilderness",
+                            "raining, stony_wilderness",
+                            "stony_wilderness, thunderstorm",
+                            "snowing, stony_wilderness",
+                            "snowstorm, stony_wilderness",
+                            "intense_sun, stony_wilderness",
+                            "sandstorm, stony_wilderness",
+                            "fog, stony_wilderness",
+                            "motostoke_riverbank, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Skuntank",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dusty_bowl, overcast",
+                            "north_lake_miloch, raining",
+                            "intense_sun, north_lake_miloch",
+                            "north_lake_miloch, sandstorm",
+                            "normal_weather, south_lake_miloch",
+                            "overcast, south_lake_miloch",
+                            "snowing, south_lake_miloch",
+                            "snowstorm, south_lake_miloch",
+                            "sandstorm, south_lake_miloch",
+                            "fog, south_lake_miloch"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Snorlax",
+                        "item_count": 1,
+                        "access_rules": [
+                            "motostoke_riverbank, normal_weather",
+                            "motostoke_riverbank, overcast",
+                            "motostoke_riverbank, raining",
+                            "motostoke_riverbank, thunderstorm",
+                            "motostoke_riverbank, snowing",
+                            "motostoke_riverbank, snowstorm",
+                            "intense_sun, motostoke_riverbank",
+                            "motostoke_riverbank, sandstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Steelix",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_mirror, normal_weather",
+                            "giants_mirror, overcast",
+                            "giants_mirror, raining",
+                            "giants_mirror, thunderstorm",
+                            "giants_mirror, snowing",
+                            "giants_mirror, snowstorm",
+                            "giants_mirror, intense_sun",
+                            "giants_mirror, sandstorm",
+                            "fog, giants_mirror",
+                            "giants_seat, normal_weather",
+                            "giants_seat, overcast",
+                            "giants_seat, raining",
+                            "giants_seat, thunderstorm",
+                            "giants_seat, snowing",
+                            "giants_seat, snowstorm",
+                            "giants_seat, intense_sun",
+                            "giants_seat, sandstorm",
+                            "fog, giants_seat",
+                            "giants_mirror, noweather",
+                            "giants_seat, noweather"
+                        ]
+                    },
+                    {
+                        "name": "Sudowoodo",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dusty_bowl, normal_weather",
+                            "dusty_bowl, overcast",
+                            "dusty_bowl, snowing",
+                            "dusty_bowl, snowstorm",
+                            "dusty_bowl, intense_sun",
+                            "dusty_bowl, sandstorm",
+                            "dusty_bowl, fog"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Sylveon",
+                        "item_count": 1,
+                        "access_rules": [
+                            "fog, lake_of_outrage, progressive_bike_2"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Thievul",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, south_lake_miloch",
+                            "overcast, south_lake_miloch",
+                            "raining, south_lake_miloch",
+                            "south_lake_miloch, thunderstorm",
+                            "snowing, south_lake_miloch",
+                            "snowstorm, south_lake_miloch",
+                            "intense_sun, south_lake_miloch",
+                            "sandstorm, south_lake_miloch",
+                            "fog, south_lake_miloch",
+                            "noweather, south_lake_miloch"
+                        ]
+                    },
+                    {
+                        "name": "Tsareena",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, stony_wilderness",
+                            "overcast, stony_wilderness",
+                            "snowing, stony_wilderness",
+                            "snowstorm, stony_wilderness",
+                            "intense_sun, stony_wilderness",
+                            "sandstorm, stony_wilderness",
+                            "fog, stony_wilderness"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Umbreon",
+                        "item_count": 1,
+                        "access_rules": [
+                            "lake_of_outrage, progressive_bike_2, sandstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Unfezant",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_mirror, normal_weather",
+                            "giants_mirror, overcast",
+                            "giants_mirror, intense_sun",
+                            "overcast, stony_wilderness"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Vanillish",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dappled_grove, snowing",
+                            "dappled_grove, snowstorm",
+                            "north_lake_miloch, snowing",
+                            "north_lake_miloch, snowstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Vanilluxe",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, snowing",
+                            "bridge_field, snowstorm",
+                            "east_lake_axewell, progressive_bike_2, snowing",
+                            "lake_of_outrage, progressive_bike_2, snowing",
+                            "north_lake_miloch, progressive_bike_2, snowing",
+                            "progressive_bike_2, snowing, south_lake_miloch",
+                            "progressive_bike_2, snowing, west_lake_axewell",
+                            "east_lake_axewell, progressive_bike_2, snowstorm",
+                            "lake_of_outrage, progressive_bike_2, snowstorm",
+                            "north_lake_miloch, progressive_bike_2, snowstorm",
+                            "progressive_bike_2, snowstorm, south_lake_miloch",
+                            "progressive_bike_2, snowstorm, west_lake_axewell"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Vaporeon",
+                        "item_count": 1,
+                        "access_rules": [
+                            "lake_of_outrage, progressive_bike_2, raining"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Vespiquen",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, rolling_fields"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Vikavolt",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_seat, normal_weather",
+                            "giants_seat, overcast",
+                            "giants_seat, intense_sun",
+                            "giants_seat, sandstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Vileplume",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dappled_grove, normal_weather",
+                            "dappled_grove, overcast",
+                            "dappled_grove, fog",
+                            "giants_mirror, overcast",
+                            "giants_mirror, raining",
+                            "giants_mirror, thunderstorm",
+                            "giants_mirror, snowing",
+                            "giants_mirror, snowstorm",
+                            "giants_mirror, sandstorm",
+                            "hammerlocke_hills, normal_weather",
+                            "hammerlocke_hills, raining",
+                            "hammerlocke_hills, thunderstorm",
+                            "hammerlocke_hills, intense_sun",
+                            "hammerlocke_hills, sandstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Weavile",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, progressive_bike_2, snowstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Xatu",
+                        "item_count": 1,
+                        "access_rules": [
+                            "east_lake_axewell, normal_weather",
+                            "east_lake_axewell, overcast",
+                            "east_lake_axewell, snowing",
+                            "east_lake_axewell, snowstorm",
+                            "east_lake_axewell, intense_sun",
+                            "east_lake_axewell, sandstorm",
+                            "east_lake_axewell, fog",
+                            "giants_mirror, raining",
+                            "giants_mirror, thunderstorm",
+                            "giants_mirror, snowing",
+                            "giants_mirror, snowstorm",
+                            "giants_mirror, sandstorm",
+                            "fog, giants_mirror",
+                            "normal_weather, north_lake_miloch",
+                            "north_lake_miloch, overcast",
+                            "north_lake_miloch, snowing",
+                            "north_lake_miloch, snowstorm",
+                            "intense_sun, north_lake_miloch",
+                            "north_lake_miloch, sandstorm",
+                            "fog, north_lake_miloch"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Seaking",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, normal_weather, progressive_bike_2",
+                            "normal_weather, progressive_bike_2, west_lake_axewell",
+                            "bridge_field, overcast, progressive_bike_2",
+                            "overcast, progressive_bike_2, west_lake_axewell",
+                            "bridge_field, progressive_bike_2, sandstorm",
+                            "progressive_bike_2, sandstorm, west_lake_axewell",
+                            "east_lake_axewell, normal_weather, progressive_bike_2",
+                            "east_lake_axewell, overcast, progressive_bike_2",
+                            "east_lake_axewell, progressive_bike_2, sandstorm",
+                            "east_lake_axewell, intense_sun, progressive_bike_2",
+                            "lake_of_outrage, overcast, progressive_bike_2",
+                            "lake_of_outrage, progressive_bike_2, sandstorm",
+                            "intense_sun, lake_of_outrage, progressive_bike_2",
+                            "north_lake_miloch, progressive_bike_2, raining",
+                            "north_lake_miloch, progressive_bike_2, thunderstorm",
+                            "fog, north_lake_miloch, progressive_bike_2",
+                            "normal_weather, progressive_bike_2, south_lake_miloch",
+                            "overcast, progressive_bike_2, south_lake_miloch",
+                            "progressive_bike_2, raining, south_lake_miloch",
+                            "progressive_bike_2, south_lake_miloch, thunderstorm",
+                            "progressive_bike_2, sandstorm, south_lake_miloch"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Lanturn",
+                        "item_count": 1,
+                        "access_rules": [
+                            "east_lake_axewell, normal_weather, progressive_bike_2",
+                            "lake_of_outrage, normal_weather, progressive_bike_2",
+                            "east_lake_axewell, progressive_bike_2, thunderstorm",
+                            "lake_of_outrage, progressive_bike_2, thunderstorm",
+                            "east_lake_axewell, fog, progressive_bike_2",
+                            "fog, lake_of_outrage, progressive_bike_2",
+                            "bridge_field, progressive_bike_2, thunderstorm",
+                            "progressive_bike_2, south_lake_miloch, thunderstorm",
+                            "progressive_bike_2, thunderstorm, west_lake_axewell"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Gyarados",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bridge_field, noweather, progressive_bike_2",
+                            "dusty_bowl, noweather, progressive_bike_2",
+                            "east_lake_axewell, noweather, progressive_bike_2",
+                            "noweather, progressive_bike_2, west_lake_axewell",
+                            "bridge_field, normal_weather, progressive_bike_2",
+                            "dusty_bowl, normal_weather, progressive_bike_2",
+                            "east_lake_axewell, normal_weather, progressive_bike_2",
+                            "normal_weather, progressive_bike_2, west_lake_axewell",
+                            "bridge_field, overcast, progressive_bike_2",
+                            "dusty_bowl, overcast, progressive_bike_2",
+                            "east_lake_axewell, overcast, progressive_bike_2",
+                            "overcast, progressive_bike_2, west_lake_axewell",
+                            "bridge_field, progressive_bike_2, raining",
+                            "dusty_bowl, progressive_bike_2, raining",
+                            "east_lake_axewell, progressive_bike_2, raining",
+                            "progressive_bike_2, raining, west_lake_axewell",
+                            "bridge_field, progressive_bike_2, thunderstorm",
+                            "dusty_bowl, progressive_bike_2, thunderstorm",
+                            "east_lake_axewell, progressive_bike_2, thunderstorm",
+                            "progressive_bike_2, thunderstorm, west_lake_axewell",
+                            "bridge_field, progressive_bike_2, snowing",
+                            "dusty_bowl, progressive_bike_2, snowing",
+                            "east_lake_axewell, progressive_bike_2, snowing",
+                            "progressive_bike_2, snowing, west_lake_axewell",
+                            "bridge_field, progressive_bike_2, snowstorm",
+                            "dusty_bowl, progressive_bike_2, snowstorm",
+                            "east_lake_axewell, progressive_bike_2, snowstorm",
+                            "progressive_bike_2, snowstorm, west_lake_axewell",
+                            "bridge_field, intense_sun, progressive_bike_2",
+                            "dusty_bowl, intense_sun, progressive_bike_2",
+                            "east_lake_axewell, intense_sun, progressive_bike_2",
+                            "intense_sun, progressive_bike_2, west_lake_axewell",
+                            "bridge_field, progressive_bike_2, sandstorm",
+                            "dusty_bowl, progressive_bike_2, sandstorm",
+                            "east_lake_axewell, progressive_bike_2, sandstorm",
+                            "progressive_bike_2, sandstorm, west_lake_axewell",
+                            "bridge_field, fog, progressive_bike_2",
+                            "dusty_bowl, fog, progressive_bike_2",
+                            "east_lake_axewell, fog, progressive_bike_2",
+                            "fog, progressive_bike_2, west_lake_axewell",
+                            "lake_of_outrage, normal_weather, progressive_bike_2",
+                            "normal_weather, progressive_bike_2, south_lake_miloch",
+                            "lake_of_outrage, overcast, progressive_bike_2",
+                            "overcast, progressive_bike_2, south_lake_miloch",
+                            "lake_of_outrage, progressive_bike_2, raining",
+                            "progressive_bike_2, raining, south_lake_miloch",
+                            "lake_of_outrage, progressive_bike_2, thunderstorm",
+                            "progressive_bike_2, south_lake_miloch, thunderstorm",
+                            "lake_of_outrage, progressive_bike_2, snowing",
+                            "progressive_bike_2, snowing, south_lake_miloch",
+                            "lake_of_outrage, progressive_bike_2, snowstorm",
+                            "progressive_bike_2, snowstorm, south_lake_miloch",
+                            "intense_sun, lake_of_outrage, progressive_bike_2",
+                            "intense_sun, progressive_bike_2, south_lake_miloch",
+                            "lake_of_outrage, progressive_bike_2, sandstorm",
+                            "progressive_bike_2, sandstorm, south_lake_miloch",
+                            "north_lake_miloch, overcast, progressive_bike_2",
+                            "north_lake_miloch, progressive_bike_2, thunderstorm",
+                            "intense_sun, north_lake_miloch, progressive_bike_2",
+                            "north_lake_miloch, progressive_bike_2, sandstorm"
+                        ]
+                    },
+                    {
+                        "name": "Gastrodon",
+                        "item_count": 1,
+                        "access_rules": [
+                            "giants_mirror, noweather, progressive_bike_2",
+                            "dusty_bowl, noweather, progressive_bike_2",
+                            "giants_mirror, normal_weather, progressive_bike_2",
+                            "dusty_bowl, normal_weather, progressive_bike_2",
+                            "giants_mirror, overcast, progressive_bike_2",
+                            "dusty_bowl, overcast, progressive_bike_2",
+                            "giants_mirror, progressive_bike_2, raining",
+                            "dusty_bowl, progressive_bike_2, raining",
+                            "giants_mirror, progressive_bike_2, thunderstorm",
+                            "dusty_bowl, progressive_bike_2, thunderstorm",
+                            "giants_mirror, progressive_bike_2, snowing",
+                            "dusty_bowl, progressive_bike_2, snowing",
+                            "giants_mirror, progressive_bike_2, snowstorm",
+                            "dusty_bowl, progressive_bike_2, snowstorm",
+                            "giants_mirror, intense_sun, progressive_bike_2",
+                            "dusty_bowl, intense_sun, progressive_bike_2",
+                            "giants_mirror, progressive_bike_2, sandstorm",
+                            "dusty_bowl, progressive_bike_2, sandstorm",
+                            "fog, giants_mirror, progressive_bike_2",
+                            "dusty_bowl, fog, progressive_bike_2"
+                        ]
+                    },
+                    {
+                        "name": "Jellicent",
+                        "item_count": 1,
+                        "access_rules": [
+                            "east_lake_axewell, normal_weather, progressive_bike_2",
+                            "east_lake_axewell, overcast, progressive_bike_2",
+                            "east_lake_axewell, progressive_bike_2, raining",
+                            "east_lake_axewell, fog, progressive_bike_2",
+                            "giants_mirror, noweather, progressive_bike_2",
+                            "lake_of_outrage, normal_weather, progressive_bike_2",
+                            "normal_weather, north_lake_miloch, progressive_bike_2",
+                            "normal_weather, progressive_bike_2, west_lake_axewell",
+                            "lake_of_outrage, overcast, progressive_bike_2",
+                            "north_lake_miloch, overcast, progressive_bike_2",
+                            "overcast, progressive_bike_2, west_lake_axewell",
+                            "lake_of_outrage, progressive_bike_2, raining",
+                            "north_lake_miloch, progressive_bike_2, raining",
+                            "progressive_bike_2, raining, west_lake_axewell",
+                            "lake_of_outrage, progressive_bike_2, thunderstorm",
+                            "north_lake_miloch, progressive_bike_2, thunderstorm",
+                            "progressive_bike_2, thunderstorm, west_lake_axewell",
+                            "fog, lake_of_outrage, progressive_bike_2",
+                            "fog, north_lake_miloch, progressive_bike_2",
+                            "fog, progressive_bike_2, west_lake_axewell",
+                            "progressive_bike_2, raining, south_lake_miloch",
+                            "fog, progressive_bike_2, south_lake_miloch"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Cloyster",
+                        "item_count": 1,
+                        "access_rules": [
+                            "east_lake_axewell, normal_weather, progressive_bike_2",
+                            "east_lake_axewell, fog, progressive_bike_2",
+                            "normal_weather, progressive_bike_2, west_lake_axewell",
+                            "fog, progressive_bike_2, west_lake_axewell"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Milotic",
+                        "item_count": 1,
+                        "access_rules": [
+                            "fog, progressive_bike_2, south_lake_miloch",
+                            "fog, lake_of_outrage, progressive_bike_2"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Lapras",
+                        "item_count": 1,
+                        "access_rules": [
+                            "lake_of_outrage, normal_weather, progressive_bike_2",
+                            "normal_weather, north_lake_miloch, progressive_bike_2",
+                            "normal_weather, progressive_bike_2, west_lake_axewell",
+                            "lake_of_outrage, progressive_bike_2, raining",
+                            "north_lake_miloch, progressive_bike_2, raining",
+                            "progressive_bike_2, raining, west_lake_axewell",
+                            "lake_of_outrage, progressive_bike_2, thunderstorm",
+                            "north_lake_miloch, progressive_bike_2, thunderstorm",
+                            "progressive_bike_2, thunderstorm, west_lake_axewell",
+                            "lake_of_outrage, progressive_bike_2, snowing",
+                            "north_lake_miloch, progressive_bike_2, snowing",
+                            "progressive_bike_2, snowing, west_lake_axewell",
+                            "lake_of_outrage, progressive_bike_2, snowstorm",
+                            "north_lake_miloch, progressive_bike_2, snowstorm",
+                            "progressive_bike_2, snowstorm, west_lake_axewell",
+                            "fog, lake_of_outrage, progressive_bike_2",
+                            "fog, north_lake_miloch, progressive_bike_2",
+                            "fog, progressive_bike_2, west_lake_axewell"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Wailmer",
+                        "item_count": 1,
+                        "access_rules": [
+                            "motostoke_riverbank, normal_weather, progressive_bike_2",
+                            "motostoke_riverbank, overcast, progressive_bike_2",
+                            "motostoke_riverbank, progressive_bike_2, raining",
+                            "motostoke_riverbank, progressive_bike_2, thunderstorm",
+                            "motostoke_riverbank, progressive_bike_2, snowing",
+                            "motostoke_riverbank, progressive_bike_2, snowstorm",
+                            "intense_sun, motostoke_riverbank, progressive_bike_2",
+                            "motostoke_riverbank, progressive_bike_2, sandstorm",
+                            "fog, motostoke_riverbank, progressive_bike_2",
+                            "motostoke_riverbank, noweather, progressive_bike_2"
+                        ]
+                    },
+                    {
+                        "name": "Whiscash",
+                        "item_count": 1,
+                        "access_rules": [
+                            "intense_sun, north_lake_miloch, progressive_bike_2",
+                            "intense_sun, progressive_bike_2, south_lake_miloch",
+                            "north_lake_miloch, progressive_bike_2, sandstorm",
+                            "progressive_bike_2, sandstorm, south_lake_miloch",
+                            "normal_weather, progressive_bike_2, south_lake_miloch",
+                            "progressive_bike_2, south_lake_miloch, thunderstorm"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    },
+                    {
+                        "name": "Octillery",
+                        "item_count": 1,
+                        "access_rules": [
+                            "normal_weather, progressive_bike_2, south_lake_miloch",
+                            "intense_sun, progressive_bike_2, south_lake_miloch",
+                            "progressive_bike_2, sandstorm, south_lake_miloch",
+                            "fog, progressive_bike_2, south_lake_miloch"
+                        ],
+                        "visibility_rules": [
+                            "$negate|Remove_weather_locations"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "main_map",
+                        "x": 25,
+                        "y": 0
+                    },
+                    {
+                        "map": "Dex_map?",
+                        "x": 100,
+                        "y": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Win Condition",
+        "children": [
+            {
+                "name": "__start__",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Eternatus",
+                        "item_count": 1,
+                        "access_rules": [
+                            "broken_shards:10"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "main_map",
+                        "x": 0,
+                        "y": 0
+                    }//add extra map here to adjust map
+                ]
+            }
+        ]
+    }
+]

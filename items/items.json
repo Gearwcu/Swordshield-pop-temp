@@ -1,0 +1,189 @@
+[
+    {
+        "name": "Progressive bike",
+        "type": "progressive",
+        "codes": "progressive_bike",
+        "stages": [
+            {
+                "name": "Bike",
+                "img": "images/items/bike.png",
+                "codes": "bike"
+            },
+            {
+                "name": "Macho Bike",
+                "img": "images/items/macho_bike.png",
+                "codes": "macho_bike"
+            }
+        ]
+    },
+    {
+        "name": "Broken shards",
+        "type": "consumable",
+        "img": "images/items/broken_shards.png",
+        "codes": "broken_shards",
+        "min_quantity": 0,
+        "max_quantity": 10
+    },
+    {
+        "name": "Normal weather",
+        "type": "toggle",
+        "img": "images/items/normal_weather.png",
+        "codes": "normal_weather"
+    },
+    {
+        "name": "Overcast",
+        "type": "toggle",
+        "img": "images/items/overcast.png",
+        "codes": "overcast"
+    },
+    {
+        "name": "Raining",
+        "type": "toggle",
+        "img": "images/items/raining.png",
+        "codes": "raining"
+    },
+    {
+        "name": "Thunderstorm",
+        "type": "toggle",
+        "img": "images/items/thunderstorm.png",
+        "codes": "thunderstorm"
+    },
+    {
+        "name": "Snowing",
+        "type": "toggle",
+        "img": "images/items/snowing.png",
+        "codes": "snowing"
+    },
+    {
+        "name": "Snowstorm",
+        "type": "toggle",
+        "img": "images/items/snowstorm.png",
+        "codes": "snowstorm"
+    },
+    {
+        "name": "Intense Sun",
+        "type": "toggle",
+        "img": "images/items/intense_sun.png",
+        "codes": "intense_sun"
+    },
+    {
+        "name": "Sandstorm",
+        "type": "toggle",
+        "img": "images/items/sandstorm.png",
+        "codes": "sandstorm"
+    },
+    {
+        "name": "Fog",
+        "type": "toggle",
+        "img": "images/items/fog.png",
+        "codes": "fog"
+    },
+    {
+        "name": "Axew's Eye",
+        "type": "toggle",
+        "img": "images/items/axews_eye.png",
+        "codes": "axews_eye"
+    },
+    {
+        "name": "Bridge Field",
+        "type": "toggle",
+        "img": "images/items/bridge_field.png",
+        "codes": "bridge_field"
+    },
+    {
+        "name": "Dappled Grove",
+        "type": "toggle",
+        "img": "images/items/dappled_grove.png",
+        "codes": "dappled_grove"
+    },
+    {
+        "name": "Dusty Bowl",
+        "type": "toggle",
+        "img": "images/items/dusty_bowl.png",
+        "codes": "dusty_bowl"
+    },
+    {
+        "name": "East Lake Axewell",
+        "type": "toggle",
+        "img": "images/items/east_lake_axewell.png",
+        "codes": "east_lake_axewell"
+    },
+    {
+        "name": "Giant's Cap",
+        "type": "toggle",
+        "img": "images/items/giants_cap.png",
+        "codes": "giants_cap"
+    },
+    {
+        "name": "Giant's Mirror",
+        "type": "toggle",
+        "img": "images/items/giants_mirror.png",
+        "codes": "giants_mirror"
+    },
+    {
+        "name": "Giant's Seat",
+        "type": "toggle",
+        "img": "images/items/giants_seat.png",
+        "codes": "giants_seat"
+    },
+    {
+        "name": "Hammerlocke Hills",
+        "type": "toggle",
+        "img": "images/items/hammerlocke_hills.png",
+        "codes": "hammerlocke_hills"
+    },
+    {
+        "name": "Lake of Outrage",
+        "type": "toggle",
+        "img": "images/items/lake_of_outrage.png",
+        "codes": "lake_of_outrage"
+    },
+    {
+        "name": "Motostoke Riverbank",
+        "type": "toggle",
+        "img": "images/items/motostoke_riverbank.png",
+        "codes": "motostoke_riverbank"
+    },
+    {
+        "name": "North Lake Miloch",
+        "type": "toggle",
+        "img": "images/items/north_lake_miloch.png",
+        "codes": "north_lake_miloch"
+    },
+    {
+        "name": "South Lake Miloch",
+        "type": "toggle",
+        "img": "images/items/south_lake_miloch.png",
+        "codes": "south_lake_miloch"
+    },
+    {
+        "name": "Stony Wilderness",
+        "type": "toggle",
+        "img": "images/items/stony_wilderness.png",
+        "codes": "stony_wilderness"
+    },
+    {
+        "name": "Watchtower Ruins",
+        "type": "toggle",
+        "img": "images/items/watchtower_ruins.png",
+        "codes": "watchtower_ruins"
+    },
+    {
+        "name": "West Lake Axewell",
+        "type": "toggle",
+        "img": "images/items/west_lake_axewell.png",
+        "codes": "west_lake_axewell"
+    },
+    {
+        "name": "Rolling Fields",
+        "type": "toggle",
+        "img": "images/items/rolling_fields.png",
+        "codes": "rolling_fields"
+    },
+    {
+        "name": "Noweather",
+        "type": "toggle",
+        "img": "images/items/noweather.png",
+        "codes": "noweather"
+    }
+]

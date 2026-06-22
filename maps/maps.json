@@ -1,0 +1,14 @@
+[ //add extra map here as well as in layouts
+    {
+        "name": "main_map",
+        "img": "images/maps/main_map.png",
+        "location_size": 50,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "Dex_map?",
+        "img": "images/maps/main_map.png",
+        "location_size": 20,
+        "location_border_thickness": 2
+    }
+]

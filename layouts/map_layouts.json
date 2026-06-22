@@ -1,0 +1,25 @@
+{ //add extra map here as well
+    "tracker_map": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Main Map",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "main_map"
+                    ]
+                }
+            },
+            {
+                "title": "Dex Map",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Dex_map?"
+                    ]
+                }
+            }
+        ]
+    }
+}

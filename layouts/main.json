@@ -1,0 +1,71 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "content": {
+      "type": "dock",
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "dock",
+              "dock": "left",
+              "v_alignment": "stretch",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Shards",
+                  "dock": "left",
+                  "content": {
+                    "type": "layout",
+                    "key": "shards"
+                  }       
+                },
+                {
+                  "type": "group",
+                  "header": "Bike",
+                  "dock": "left",
+                  "content": {
+                    "type": "layout",
+                    "key": "bikes"
+                  } 
+                },
+                {
+                  "type": "group",
+                  "header": "Weather",
+                  "dock": "left",
+                  "content": {
+                    "type": "layout",
+                     "key": "weather"
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Locations",
+                  "dock": "left",
+                  "content":{
+                    "type": "layout",
+                    "key": "locations"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "v_alignment": "stretch",
+          "margin": "0, 0",
+          "content": [
+            {
+              "type": "layout",
+              "dock": "top",
+              "key": "tracker_map"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

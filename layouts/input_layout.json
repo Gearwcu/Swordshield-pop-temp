@@ -1,0 +1,125 @@
+{
+    "bikes": {
+        "type": "array",
+        "orientation":"vertical",
+        "margin": "0,0",
+        "content": [
+            {
+    
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": 40,
+                "item_margin": "4,4",
+                "rows": [
+                    [
+                        "progressive_bike",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        ]
+    },
+    "shards": {
+        "type": "array",
+        "orientation":"vertical",
+        "margin": "0,0",
+        "content": [
+            {
+    
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": 40,
+                "item_margin": "4,4",
+                "rows": [
+                    [
+                        "broken_shards",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        ]
+    },
+    "weather": {
+        "type": "array",
+        "orientation":"vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": 40,
+                "item_margin": "4,4",
+                "rows": [
+                    [
+                        "normal_weather",
+                        "overcast",
+                        "intense_sun",
+                        "sandstorm",
+                        "fog"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": 40,
+                "item_margin": "4,4",
+                "rows": [
+                    [
+                        "raining",
+                        "thunderstorm",
+                        "snowing",
+                        "snowstorm"
+                    ]
+
+                ]
+            }
+        ]
+    },
+    "locations": {
+        "type": "array",
+        "orientation":"vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": 40,
+                "item_margin": "4,4",
+                "rows": [
+                    [
+                        "axews_eye",
+                        "bridge_field",
+                        "dappled_grove",
+                        "dusty_bowl",
+                        "east_lake_axewell",
+                        "giants_cap",
+                        "giants_mirror",
+                        "giants_seat",
+                        "hammerlocke_hills",
+                        "lake_of_outrage"
+                    ],
+                    [
+                        "motostoke_riverbank",
+                        "north_lake_miloch",
+                        "south_lake_miloch",
+                        "stony_wilderness",
+                        "watchtower_ruins",
+                        "west_lake_axewell",
+                        "rolling_fields",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        ]
+    }
+}

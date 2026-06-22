@@ -1,0 +1,15 @@
+{
+    "name": "PokemonSS for Archipelago (Manual)",
+    "game_name": "Manual_PokemonSS_Riannehx",
+    "package_version": "1.0.0",
+    "package_uid": "Manual_PokemonSS_Riannehx",
+    "variants": {
+        "tracker": {
+            "display_name": "Map Tracker",
+            "flags": [
+                "ap",
+                "apmanual"
+            ]
+        }
+    }
+}

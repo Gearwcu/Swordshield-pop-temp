@@ -9,15 +9,15 @@
     {
         "name": "Wanderer Abomasnow",
         "visibility_rules": [
-            "Pokemon",
-            "Special overworld spawn",
-            "Axew's Eye",
-            "Giant's Mirror",
-            "Giant's Seat",
-            "Hammerlocke Hills",
-            "needsWeather",
-            "Grass",
-            "Ice"
+            //"Pokemon",
+            //"Special overworld spawn",
+            //"Axew's Eye",
+            //"Giant's Mirror",
+            //"Giant's Seat",
+            //"Hammerlocke Hills",
+            //"needsWeather",
+            //"Grass",
+            //"Ice"
         ],
         "access_rules": ["(Axew's Eye, Progressive bike:2 AND &snow) OR (Giant's Mirror, Snowing) OR ((Giant's Seat OR Hammerlocke Hills) AND &snow)"
     ]
@@ -1684,8 +1684,1500 @@
                 "name": "Routes",
                 "access_rules":[],
                 "sections": [
-                    
-                ]
+    {
+        "name": "Blipbug",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Slumbering Weald",
+            "Exclamation mark",
+            "Route 1",
+            "Route 2",
+            "Bug"
+        ],
+        "access_rules": "|Route 1 Access| OR |Route 2 Access| OR |Slumbering Weald Access|"
+    },
+    {
+        "name": "Caterpie",
+        "visibility_rules": ["Pokemon", "Routes", "Exclamation mark", "Route 1", "Bug"],
+        "access_rules": "|Route 1 Access|"
+    },
+    {
+        "name": "Grubbin",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Slumbering Weald",
+            "Exclamation mark",
+            "Route 1",
+            "Bug"
+        ],
+        "access_rules": "|Route 1 Access| OR |Slumbering Weald Access|"
+    },
+    {
+        "name": "Hoothoot",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Slumbering Weald",
+            "Exclamation mark",
+            "LowPerc:Hoothoot",
+            "Route 1",
+            "Route 2",
+            "Normal",
+            "Flying"
+        ],
+        "access_rules": "|Route 1 Access| OR |Route 2 Access| OR |Slumbering Weald Access|"
+    },
+    {
+        "name": "Nickit",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Route 1",
+            "Route 2",
+            "LowPerc:Nickit",
+            "Dark"
+        ],
+        "access_rules": "|Route 1 Access| OR |Route 2 Access|"
+    },
+    {
+        "name": "Rookidee",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Slumbering Weald",
+            "Route 1",
+            "Route 2",
+            "Route 3",
+            "Flying"
+        ],
+        "access_rules": "|Route 1 Access| OR |Route 2 Access| OR |Route 3 Access| OR |Slumbering Weald Access|"
+    },
+    {
+        "name": "Skwovet",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Slumbering Weald",
+            "Route 1",
+            "Route 2",
+            "Normal"
+        ],
+        "access_rules": "|Route 1 Access| OR |Route 2 Access| OR |Slumbering Weald Access|"
+    },
+    {
+        "name": "Wooloo",
+        "visibility_rules": ["Pokemon", "Routes", "Route 1", "Route 4", "Normal"],
+        "access_rules": "|Route 1 Access| OR |Route 4 Access|"
+    },
+    {
+        "name": "Lotad",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 2",
+            "GameShield",
+            "Water",
+            "Grass"
+        ],
+        "access_rules": "|Route 2 Access|"
+    },
+    {
+        "name": "Seedot",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 2",
+            "GameSword",
+            "Grass"
+        ],
+        "access_rules": "|Route 2 Access|"
+    },
+    {
+        "name": "Purrloin",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 2",
+            "Dark"
+        ],
+        "access_rules": "|Route 2 Access|"
+    },
+    {
+        "name": "Galarian Zigzagoon",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Route 2",
+            "LowPerc:Zigzagoon",
+            "Route 3",
+            "Dark"
+        ],
+        "access_rules": "|Route 2 Access| OR |Route 3 Access|"
+    },
+    {
+        "name": "Chewtle",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Route 2",
+            "LowPerc:Chewtle",
+            "Galar Mine 2",
+            "Motostoke Outskirts",
+            "Water"
+        ],
+        "access_rules": "|Route 2 Access| OR |Galar Mine 2 Access| OR |Motostoke Outskirts Access|"
+    },
+    {
+        "name": "Yamper",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "LowPerc:Yamper",
+            "Route 2",
+            "Route 4",
+            "Electric"
+        ],
+        "access_rules": "|Route 2 Access| OR |Route 4 Access|"
+    },
+    {
+        "name": "Gyarados",
+        "visibility_rules": ["Pokemon", "Routes", "Route 2", "Water", "Flying"],
+        "access_rules": "|Route 2 Access| AND |Progressive bike:2|"
+    },
+    {
+        "name": "Arrokuda",
+        "visibility_rules": ["Pokemon", "Routes", "Route 2", "Water"],
+        "access_rules": "|Route 2 Access| AND |Progressive bike:2|"
+    },
+    {
+        "name": "Barraskewda",
+        "visibility_rules": ["Pokemon", "Routes", "Route 2", "Water"],
+        "access_rules": "|Route 2 Access| AND |Progressive bike:2|"
+    },
+    {
+        "name": "Gossifleur",
+        "visibility_rules": ["Pokemon", "Routes", "Route 2", "Route 3", "Grass"],
+        "access_rules": "|Route 2 Access| AND |Progressive bike:2| OR |Route 3 Access|"
+    },
+    {
+        "name": "Machop",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 3",
+            "Fighting"
+        ],
+        "access_rules": "|Route 3 Access|"
+    },
+    {
+        "name": "Klink",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 3",
+            "Steel"
+        ],
+        "access_rules": "|Route 3 Access|"
+    },
+    {
+        "name": "Pancham",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 3",
+            "Fighting"
+        ],
+        "access_rules": "|Route 3 Access|"
+    },
+    {
+        "name": "Mudbray",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 3",
+            "Ground"
+        ],
+        "access_rules": "|Route 3 Access|"
+    },
+    {
+        "name": "Sizzlipede",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "LowPercentage",
+            "Route 3",
+            "Fire",
+            "Bug"
+        ],
+        "access_rules": "|Route 3 Access|"
+    },
+    {
+        "name": "Vulpix",
+        "visibility_rules": ["Pokemon", "Routes", "Route 3", "GameSword", "Fire"],
+        "access_rules": "|Route 3 Access|"
+    },
+    {
+        "name": "Growlithe",
+        "visibility_rules": ["Pokemon", "Routes", "Route 3", "GameShield", "Fire"],
+        "access_rules": "|Route 3 Access|"
+    },
+    {
+        "name": "Tyrogue",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "LowPercentage",
+            "Route 3",
+            "Fighting"
+        ],
+        "access_rules": "|Route 3 Access|"
+    },
+    {
+        "name": "Stunky",
+        "visibility_rules": ["Pokemon", "Routes", "Route 3", "Dark", "Poison"],
+        "access_rules": "|Route 3 Access|"
+    },
+    {
+        "name": "Trubbish",
+        "visibility_rules": ["Pokemon", "Routes", "LowPercentage", "Route 3", "Poison"],
+        "access_rules": "|Route 3 Access|"
+    },
+    {
+        "name": "Carkol",
+        "visibility_rules": ["Pokemon", "Routes", "Galar Mine", "Rock", "Fire"],
+        "access_rules": "|Galar Mine Access|"
+    },
+    {
+        "name": "Rolycoly",
+        "visibility_rules": ["Pokemon", "Routes", "Route 3", "Galar Mine", "Rock"],
+        "access_rules": "|Route 3 Access| AND |Galar Mine Access|"
+    },
+    {
+        "name": "Diglett",
+        "visibility_rules": ["Pokemon", "Routes", "Galar Mine", "Ground"],
+        "access_rules": "|Galar Mine Access|"
+    },
+    {
+        "name": "Roggenrola",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "LowPerc:Roggenrola",
+            "Galar Mine",
+            "Motostoke Outskirts",
+            "Rock"
+        ],
+        "access_rules": "|Galar Mine Access| OR |Motostoke Outskirts Access|"
+    },
+    {
+        "name": "Woobat",
+        "visibility_rules": ["Pokemon", "Routes", "Galar Mine", "Psychic", "Flying"],
+        "access_rules": "|Galar Mine Access|"
+    },
+    {
+        "name": "Drilbur",
+        "visibility_rules": ["Pokemon", "Routes", "Galar Mine", "Ground"],
+        "access_rules": "|Galar Mine Access|"
+    },
+    {
+        "name": "Timburr",
+        "visibility_rules": ["Pokemon", "Routes", "Galar Mine", "Fighting"],
+        "access_rules": "|Galar Mine Access|"
+    },
+    {
+        "name": "Galarian Meowth",
+        "visibility_rules": ["Pokemon", "Routes", "Route 4", "Steel"],
+        "access_rules": "|Route 4 Access|"
+    },
+    {
+        "name": "Budew",
+        "visibility_rules": [
+            "Pokemon",
+            "Exclamation mark",
+            "LowPercentage",
+            "Routes",
+            "Route 4",
+            "Grass",
+            "Poison"
+        ],
+        "access_rules": "|Route 4 Access|"
+    },
+    {
+        "name": "Joltik",
+        "visibility_rules": [
+            "Pokemon",
+            "Exclamation mark",
+            "Routes",
+            "Route 4",
+            "Bug",
+            "Electric"
+        ],
+        "access_rules": "|Route 4 Access|"
+    },
+    {
+        "name": "Pikachu",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "LowPercentage",
+            "Route 4",
+            "Electric"
+        ],
+        "access_rules": "|Route 4 Access|"
+    },
+    {
+        "name": "Ferroseed",
+        "visibility_rules": [
+            "Pokemon",
+            "Exclamation mark",
+            "LowPercentage",
+            "Routes",
+            "Route 4",
+            "Grass",
+            "Steel"
+        ],
+        "access_rules": "|Route 4 Access|"
+    },
+    {
+        "name": "Cutiefly",
+        "visibility_rules": [
+            "Pokemon",
+            "Exclamation mark",
+            "Routes",
+            "LowPercentage",
+            "Route 4",
+            "Bug",
+            "Fairy"
+        ],
+        "access_rules": "|Route 4 Access|"
+    },
+    {
+        "name": "Milcery",
+        "visibility_rules": [
+            "Pokemon",
+            "Exclamation mark",
+            "Routes",
+            "Route 4",
+            "Fairy"
+        ],
+        "access_rules": "|Route 4 Access|"
+    },
+    {
+        "name": "Eevee",
+        "visibility_rules": ["Pokemon", "Routes", "LowPercentage", "Route 4", "Normal"],
+        "access_rules": "|Route 4 Access|"
+    },
+    {
+        "name": "Electrike",
+        "visibility_rules": ["Pokemon", "Routes", "Route 4", "Electric"],
+        "access_rules": "|Route 4 Access|"
+    },
+    {
+        "name": "Pumpkaboo",
+        "visibility_rules": ["Pokemon", "Routes", "Route 4", "Ghost", "Grass"],
+        "access_rules": "|Route 4 Access|"
+    },
+    {
+        "name": "Lombre",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 5",
+            "GameShield",
+            "Water",
+            "Grass"
+        ],
+        "access_rules": "|Route 5 Access|"
+    },
+    {
+        "name": "Nuzleaf",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 5",
+            "GameSword",
+            "Grass",
+            "Dark"
+        ],
+        "access_rules": "|Route 5 Access|"
+    },
+    {
+        "name": "Nincada",
+        "visibility_rules": [
+            //"Pokemon",
+            //"Routes",
+            //"Exclamation mark",
+            //"LowPercentage"
+            //"Route 5",
+            //"Bug",
+            //"Ground"
+        ],
+        "access_rules": "|Route 5 Access|"
+    },
+    {
+        "name": "Espurr",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 5",
+            "Psychic"
+        ],
+        "access_rules": "|Route 5 Access|"
+    },
+    {
+        "name": "Spritzee",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Glimwood Tangle",
+            "Exclamation mark",
+            "Route 5",
+            "GameShield",
+            "Fairy"
+        ],
+        "access_rules": "|Route 5 Access| OR |Glimwood Tangle Access|"
+    },
+    {
+        "name": "Swirlix",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Glimwood Tangle",
+            "Exclamation mark",
+            "Route 5",
+            "GameSword",
+            "Fairy"
+        ],
+        "access_rules": "|Route 5 Access| OR |Glimwood Tangle Access|"
+    },
+    {
+        "name": "Dewpider",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "LowPercentage",
+            "Route 5",
+            "Bug",
+            "Water"
+        ],
+        "access_rules": "|Route 5 Access|"
+    },
+    {
+        "name": "Dottler",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 5",
+            "Bug",
+            "Psychic"
+        ],
+        "access_rules": "|Route 5 Access|"
+    },
+    {
+        "name": "Applin",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 5",
+            "Grass",
+            "Dragon"
+        ],
+        "access_rules": "|Route 5 Access|"
+    },
+    {
+        "name": "Galarian Farfetch'd",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "LowPercentage",
+            "GameSword",
+            "Route 5",
+            "Fighting"
+        ],
+        "access_rules": "|Route 5 Access|"
+    },
+    {
+        "name": "Wobbuffet",
+        "visibility_rules": ["Pokemon", "Routes", "Route 5", "Psychic"],
+        "access_rules": "|Route 5 Access|"
+    },
+    {
+        "name": "Drifloon",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "LowPercentage",
+            "Route 5",
+            "Ghost",
+            "Flying"
+        ],
+        "access_rules": "|Route 5 Access|"
+    },
+    {
+        "name": "Minccino",
+        "visibility_rules": ["Pokemon", "Routes", "Route 5", "Normal"],
+        "access_rules": "|Route 5 Access|"
+    },
+    {
+        "name": "Stufful",
+        "visibility_rules": ["Pokemon", "Routes", "Route 5", "Normal", "Fighting"],
+        "access_rules": "|Route 5 Access|"
+    },
+    {
+        "name": "Torkoal",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "LowPercentage",
+            "Route 6",
+            "Fire",
+            "Rock"
+        ],
+        "access_rules": "|Route 6 Access|"
+    },
+    {
+        "name": "Duskull",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 6",
+            "Ghost"
+        ],
+        "access_rules": "|Route 6 Access|"
+    },
+    {
+        "name": "Hippopotas",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 6",
+            "Ground"
+        ],
+        "access_rules": "|Route 6 Access|"
+    },
+    {
+        "name": "Skorupi",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 6",
+            "Poison",
+            "Dark"
+        ],
+        "access_rules": "|Route 6 Access|"
+    },
+    {
+        "name": "Heatmor",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 6",
+            "Fire"
+        ],
+        "access_rules": "|Route 6 Access|"
+    },
+    {
+        "name": "Durant",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 6",
+            "Steel",
+            "Bug"
+        ],
+        "access_rules": "|Route 6 Access|"
+    },
+    {
+        "name": "Hawlucha",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "LowPercentage",
+            "Route 6",
+            "Flying",
+            "Fighting"
+        ],
+        "access_rules": "|Route 6 Access|"
+    },
+    {
+        "name": "Silicobra",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 6",
+            "Ground"
+        ],
+        "access_rules": "|Route 6 Access|"
+    },
+    {
+        "name": "Dugtrio",
+        "visibility_rules": ["Pokemon", "Routes", "Route 6", "Ground"],
+        "access_rules": "|Route 6 Access|"
+    },
+    {
+        "name": "Trapinch",
+        "visibility_rules": ["Pokemon", "Routes", "LowPercentage", "Route 6", "Ground"],
+        "access_rules": "|Route 6 Access|"
+    },
+    {
+        "name": "Maractus",
+        "visibility_rules": ["Pokemon", "Routes", "Route 6", "Grass"],
+        "access_rules": "|Route 6 Access|"
+    },
+    {
+        "name": "Galarian Yamask",
+        "visibility_rules": ["Pokemon", "Routes", "Route 6", "Ghost", "Ground"],
+        "access_rules": "|Route 6 Access|"
+    },
+    {
+        "name": "Axew",
+        "visibility_rules": ["Pokemon", "Routes", "LowPercentage", "Route 6", "Dragon"],
+        "access_rules": "|Route 6 Access|"
+    },
+    {
+        "name": "Helioptile",
+        "visibility_rules": ["Pokemon", "Routes", "Route 6", "Electric", "Normal"],
+        "access_rules": "|Route 6 Access|"
+    },
+    {
+        "name": "Seismitoad",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 7",
+            "Ground",
+            "Water"
+        ],
+        "access_rules": "|Route 7 Access|"
+    },
+    {
+        "name": "Karrablast",
+        "visibility_rules": ["Pokemon", "Routes", "Exclamation mark", "Route 7", "Bug"],
+        "access_rules": "|Route 7 Access|"
+    },
+    {
+        "name": "Shelmet",
+        "visibility_rules": ["Pokemon", "Routes", "Exclamation mark", "Route 7", "Bug"],
+        "access_rules": "|Route 7 Access|"
+    },
+    {
+        "name": "Meowstic",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 7",
+            "Psychic"
+        ],
+        "access_rules": "|Route 7 Access|"
+    },
+    {
+        "name": "Corviknight",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Slumbering Weald",
+            "Exclamation mark",
+            "Route 7",
+            "Steel",
+            "Flying"
+        ],
+        "access_rules": "|Route 7 Access| OR |Slumbering Weald Access|"
+    },
+    {
+        "name": "Toxel",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 7",
+            "Electric",
+            "Poison"
+        ],
+        "access_rules": "|Route 7 Access|"
+    },
+    {
+        "name": "Liepard",
+        "visibility_rules": ["Pokemon", "Routes", "Route 7", "Route 9", "Dark"],
+        "access_rules": "|Route 7 Access| OR |Route 9 Access|"
+    },
+    {
+        "name": "Galvantula",
+        "visibility_rules": ["Pokemon", "Routes", "Route 7", "Bug", "Electric"],
+        "access_rules": "|Route 7 Access|"
+    },
+    {
+        "name": "Inkay",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Route 7",
+            "Route 9",
+            "Dark",
+            "Psychic"
+        ],
+        "access_rules": "|Route 7 Access| OR (|Route 9 Access| AND |Progressive bike:2|)"
+    },
+    {
+        "name": "Thievul",
+        "visibility_rules": ["Pokemon", "Routes", "Route 7", "Route 9", "Dark"],
+        "access_rules": "|Route 7 Access| OR |Route 9 Access|"
+    },
+    {
+        "name": "Perrserker",
+        "visibility_rules": ["Pokemon", "Routes", "Route 7", "Route 9", "Steel"],
+        "access_rules": "|Route 7 Access| OR |Route 9 Access|"
+    },
+    {
+        "name": "Morpeko",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "LowPercentage",
+            "Route 7",
+            "Route 9",
+            "Electric",
+            "Dark"
+        ],
+        "access_rules": "|Route 7 Access| OR |Route 9 Access|"
+    },
+    {
+        "name": "Haunter",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 8",
+            "Ghost",
+            "Poison"
+        ],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Rhyhorn",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 8",
+            "Ground",
+            "Rock"
+        ],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Dusclops",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 8",
+            "Ghost"
+        ],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Bronzong",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 8",
+            "Steel",
+            "Psychic"
+        ],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Hippowdon",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 8",
+            "Ground"
+        ],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Drapion",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "LowPercentage",
+            "Route 8",
+            "Dark",
+            "Poison"
+        ],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Sandaconda",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 8",
+            "Ground"
+        ],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Falinks",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 8",
+            "Fighting"
+        ],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Lunatone",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Route 8",
+            "GameShield",
+            "LowPercentage",
+            "Rock",
+            "Psychic"
+        ],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Solrock",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Route 8",
+            "LowPercentage",
+            "GameSword",
+            "Rock",
+            "Psychic"
+        ],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Boldore",
+        "visibility_rules": ["Pokemon", "Routes", "Route 8", "Rock"],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Gurdurr",
+        "visibility_rules": ["Pokemon", "Routes", "Route 8", "Fighting"],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Golett",
+        "visibility_rules": ["Pokemon", "Routes", "Route 8", "Ghost", "Ground"],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Pawniard",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Route 8",
+            "Motostoke Outskirts",
+            "Dark",
+            "Steel"
+        ],
+        "access_rules": "|Route 8 Access| OR |Motostoke Outskirts Access|"
+    },
+    {
+        "name": "Vullaby",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Route 8",
+            "GameShield",
+            "Flying",
+            "Dark"
+        ],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Rufflet",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Route 8",
+            "GameSword",
+            "Flying",
+            "Normal"
+        ],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Togedemaru",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Route 8",
+            "LowPercentage",
+            "Steel",
+            "Electric"
+        ],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Sneasel",
+        "visibility_rules": ["Pokemon", "Routes", "Route 8", "Dark", "Ice"],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Delibird",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 8",
+            "Ice",
+            "Flying"
+        ],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Snover",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Route 8",
+            "Route 10",
+            "Grass",
+            "Ice"
+        ],
+        "access_rules": "|Route 8 Access| OR |Route 10 Access|"
+    },
+    {
+        "name": "Galarian Darumaka",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "GameSword",
+            "LowPercentage",
+            "Route 8",
+            "Route 10",
+            "Ice"
+        ],
+        "access_rules": "|Route 8 Access| OR |Route 10 Access|"
+    },
+    {
+        "name": "Snom",
+        "visibility_rules": ["Pokemon", "Routes", "Route 8", "Route 10", "Bug", "Ice"],
+        "access_rules": "|Route 8 Access| OR |Route 10 Access|"
+    },
+    {
+        "name": "Snorunt",
+        "visibility_rules": ["Pokemon", "Routes", "Route 8", "Bug", "Ice"],
+        "access_rules": "|Route 8 Access|"
+    },
+    {
+        "name": "Throh",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Route 8",
+            "Motostoke Outskirts",
+            "LowPercentage",
+            "GameShield",
+            "Fighting"
+        ],
+        "access_rules": "|Route 8 Access| AND |Motostoke Outskirts Access|"
+    },
+    {
+        "name": "Sawk",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Route 8",
+            "Motostoke Outskirts",
+            "LowPercentage",
+            "GameSword",
+            "Fighting"
+        ],
+        "access_rules": "|Route 8 Access| AND |Motostoke Outskirts Access|"
+    },
+    {
+        "name": "Vanillish",
+        "visibility_rules": ["Pokemon", "Routes", "Route 8", "Route 10", "Ice"],
+        "access_rules": "|Route 8 Access| OR |Route 10 Access|"
+    },
+    {
+        "name": "Kingler",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 9",
+            "Water"
+        ],
+        "access_rules": "|Route 9 Access|"
+    },
+    {
+        "name": "Octillery",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 9",
+            "Water"
+        ],
+        "access_rules": "|Route 9 Access|"
+    },
+    {
+        "name": "Cramorant",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 9",
+            "Water",
+            "Flying"
+        ],
+        "access_rules": "|Route 9 Access|"
+    },
+    {
+        "name": "Pincurchin",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "LowPercentage",
+            "Route 9",
+            "Electric"
+        ],
+        "access_rules": "|Route 9 Access|"
+    },
+    {
+        "name": "Pelipper",
+        "visibility_rules": ["Pokemon", "Routes", "Route 9", "Water", "Flying"],
+        "access_rules": "|Route 9 Access|"
+    },
+    {
+        "name": "Gastrodon",
+        "visibility_rules": ["Pokemon", "Routes", "Route 9", "Water", "Ground"],
+        "access_rules": "|Route 9 Access|"
+    },
+    {
+        "name": "Jellicent",
+        "visibility_rules": ["Pokemon", "Routes", "Route 9", "Water", "Ghost"],
+        "access_rules": "|Route 9 Access|"
+    },
+    {
+        "name": "Mareanie",
+        "visibility_rules": ["Pokemon", "Routes", "Route 9", "Poison", "Water"],
+        "access_rules": "|Route 9 Access|"
+    },
+    {
+        "name": "Pyukumuku",
+        "visibility_rules": ["Pokemon", "Routes", "LowPercentage", "Route 9", "Water"],
+        "access_rules": "|Route 9 Access|"
+    },
+    {
+        "name": "Qwilfish",
+        "visibility_rules": ["Pokemon", "Routes", "Route 9", "Water", "Poison"],
+        "access_rules": "|Route 9 Access| AND |Progressive bike:2|"
+    },
+    {
+        "name": "Mantyke",
+        "visibility_rules": ["Pokemon", "Routes", "Route 9", "Water", "Flying"],
+        "access_rules": "|Route 9 Access| AND |Progressive bike:2|"
+    },
+    {
+        "name": "Bergmite",
+        "visibility_rules": ["Pokemon", "Routes", "Route 9", "Ice"],
+        "access_rules": "|Route 9 Access|"
+    },
+    {
+        "name": "Dhelmise",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "LowPercentage",
+            "Route 9",
+            "Ghost",
+            "Grass"
+        ],
+        "access_rules": "|Route 9 Access|"
+    },
+    {
+        "name": "Clobbopus",
+        "visibility_rules": ["Pokemon", "Routes", "Route 9", "Fighting"],
+        "access_rules": "|Route 9 Access|"
+    },
+    {
+        "name": "Toxapex",
+        "visibility_rules": ["Pokemon", "Routes", "Route 9", "Poison", "Water"],
+        "access_rules": "(|Route 9 Access| AND |Normal weather|) OR (|Route 9 Access| AND |Progressive bike:2|)"
+    },
+    {
+        "name": "Grapploct",
+        "visibility_rules": ["Pokemon", "Routes", "Route 9", "Fighting"],
+        "access_rules": "|Route 9 Access| AND |Progressive bike:2|"
+    },
+    {
+        "name": "Rhydon",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 10",
+            "Ground",
+            "Rock"
+        ],
+        "access_rules": "|Route 10 Access|"
+    },
+    {
+        "name": "Klang",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 10",
+            "Steel"
+        ],
+        "access_rules": "|Route 10 Access|"
+    },
+    {
+        "name": "Galarian Mr. Mime",
+        "visibility_rules": ["Pokemon", "Routes", "Route 10", "Ice", "Psychic"],
+        "access_rules": "|Route 10 Access|"
+    },
+    {
+        "name": "Glalie",
+        "visibility_rules": ["Pokemon", "Routes", "Route 10", "Ice"],
+        "access_rules": "|Route 10 Access|"
+    },
+    {
+        "name": "Vanilluxe",
+        "visibility_rules": ["Pokemon", "Routes", "Route 10", "Ice"],
+        "access_rules": "|Route 10 Access|"
+    },
+    {
+        "name": "Cubchoo",
+        "visibility_rules": ["Pokemon", "Routes", "Route 10", "Ice"],
+        "access_rules": "|Route 10 Access|"
+    },
+    {
+        "name": "Abomasnow",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 10",
+            "Grass",
+            "Ice"
+        ],
+        "access_rules": "|Route 10 Access|"
+    },
+    {
+        "name": "Beartic",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "Route 10",
+            "Ice"
+        ],
+        "access_rules": "|Route 10 Access|"
+    },
+    {
+        "name": "Stonjourner",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "LowPercentage",
+            "Route 10",
+            "GameSword",
+            "Rock"
+        ],
+        "access_rules": "|Route 10 Access|"
+    },
+    {
+        "name": "Eiscue",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Exclamation mark",
+            "LowPercentage",
+            "Route 10",
+            "GameShield",
+            "Ice"
+        ],
+        "access_rules": "|Route 10 Access|"
+    },
+    {
+        "name": "Duraludon",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "LowPercentage",
+            "Route 10",
+            "Steel",
+            "Dragon"
+        ],
+        "access_rules": "|Route 10 Access|"
+    },
+    {
+        "name": "Shuckle",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Galar Mine 2",
+            "LowPercentage",
+            "Bug",
+            "Rock"
+        ],
+        "access_rules": "|Galar Mine 2 Access|"
+    },
+    {
+        "name": "Shellos",
+        "visibility_rules": ["Pokemon", "Routes", "Galar Mine 2", "Water"],
+        "access_rules": "|Galar Mine 2 Access|"
+    },
+    {
+        "name": "Croagunk",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Galar Mine 2",
+            "Motostoke Outskirts",
+            "GameShield",
+            "Poison",
+            "Fighting"
+        ],
+        "access_rules": "|Galar Mine 2 Access| OR |Motostoke Outskirts Access|"
+    },
+    {
+        "name": "Scraggy",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Galar Mine 2",
+            "Motostoke Outskirts",
+            "GameSword",
+            "Dark",
+            "Fighting"
+        ],
+        "access_rules": "|Galar Mine 2 Access| OR |Motostoke Outskirts Access|"
+    },
+    {
+        "name": "Binacle",
+        "visibility_rules": ["Pokemon", "Routes", "Galar Mine 2", "Rock", "Water"],
+        "access_rules": "|Galar Mine 2 Access|"
+    },
+    {
+        "name": "Noibat",
+        "visibility_rules": ["Pokemon", "Routes", "Galar Mine 2", "Flying", "Dragon"],
+        "access_rules": "|Galar Mine 2 Access|"
+    },
+    {
+        "name": "Wimpod",
+        "visibility_rules": ["Pokemon", "Routes", "Galar Mine 2", "Bug", "Water"],
+        "access_rules": "|Galar Mine 2 Access|"
+    },
+    {
+        "name": "Butterfree",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Slumbering Weald",
+            "LowPercentage",
+            "Bug",
+            "Flying"
+        ],
+        "access_rules": "|Slumbering Weald Access|"
+    },
+    {
+        "name": "Galarian Weezing",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Slumbering Weald",
+            "Poison",
+            "Fairy"
+        ],
+        "access_rules": "|Slumbering Weald Access|"
+    },
+    {
+        "name": "Munna",
+        "visibility_rules": ["Pokemon", "Routes", "Slumbering Weald", "Psychic"],
+        "access_rules": "|Slumbering Weald Access|"
+    },
+    {
+        "name": "Orbeetle",
+        "visibility_rules": ["Pokemon", "Routes", "Slumbering Weald", "Bug", "Psychic"],
+        "access_rules": "|Slumbering Weald Access|"
+    },
+    {
+        "name": "Galarian Stunfisk",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "LowPerc:Stunfisk",
+            "Slumbering Weald",
+            "Galar Mine 2",
+            "Ground",
+            "Steel"
+        ],
+        "access_rules": "|Slumbering Weald Access| OR |Galar Mine 2 Access|"
+    },
+    {
+        "name": "Impidimp",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "LowPerc:Impidimp",
+            "Motostoke Outskirts",
+            "Glimwood Tangle",
+            "Dark",
+            "Fairy"
+        ],
+        "access_rules": "|Motostoke Outskirts Access| OR |Glimwood Tangle Access|"
+    },
+    {
+        "name": "Koffing",
+        "visibility_rules": ["Pokemon", "Routes", "Motostoke Outskirts", "Poison"],
+        "access_rules": "|Motostoke Outskirts Access|"
+    },
+    {
+        "name": "Noctowl",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Motostoke Outskirts",
+            "Flying",
+            "Normal"
+        ],
+        "access_rules": "|Motostoke Outskirts Access|"
+    },
+    {
+        "name": "Sudowoodo",
+        "visibility_rules": ["Pokemon", "Routes", "Motostoke Outskirts", "Rock"],
+        "access_rules": "|Motostoke Outskirts Access|"
+    },
+    {
+        "name": "Salandit",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Motostoke Outskirts",
+            "GameShield",
+            "LowPercentage",
+            "Fire",
+            "Poison"
+        ],
+        "access_rules": "|Motostoke Outskirts Access|"
+    },
+    {
+        "name": "Hatenna",
+        "visibility_rules": ["Pokemon", "Routes", "Motostoke Outskirts", "Psychic"],
+        "access_rules": "|Motostoke Outskirts Access|"
+    },
+    {
+        "name": "Galarian Ponyta",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Glimwood Tangle",
+            "Psychic",
+            "GameShield"
+        ],
+        "access_rules": "|Glimwood Tangle Access|"
+    },
+    {
+        "name": "Phantump",
+        "visibility_rules": ["Pokemon", "Routes", "Glimwood Tangle", "Ghost", "Grass"],
+        "access_rules": "|Glimwood Tangle Access|"
+    },
+    {
+        "name": "Shiinotic",
+        "visibility_rules": ["Pokemon", "Routes", "Glimwood Tangle", "Fairy", "Grass"],
+        "access_rules": "|Glimwood Tangle Access|"
+    },
+    {
+        "name": "Oranguru",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Glimwood Tangle",
+            "Normal",
+            "GameShield",
+            "Psychic"
+        ],
+        "access_rules": "|Glimwood Tangle Access|"
+    },
+    {
+        "name": "Passimian",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Glimwood Tangle",
+            "Fighting",
+            "GameSword"
+        ],
+        "access_rules": "|Glimwood Tangle Access|"
+    },
+    {
+        "name": "Sinistea",
+        "visibility_rules": ["Pokemon", "Routes", "Glimwood Tangle", "Ghost"],
+        "access_rules": "|Glimwood Tangle Access|"
+    },
+    {
+        "name": "Hattrem",
+        "visibility_rules": ["Pokemon", "Routes", "Glimwood Tangle", "Psychic"],
+        "access_rules": "|Glimwood Tangle Access|"
+    },
+    {
+        "name": "Morgrem",
+        "visibility_rules": ["Pokemon", "Routes", "Glimwood Tangle", "Dark", "Fairy"],
+        "access_rules": "|Glimwood Tangle Access|"
+    },
+    {
+        "name": "Indeedee",
+        "visibility_rules": [
+            "Pokemon",
+            "Routes",
+            "Glimwood Tangle",
+            "LowPercentage",
+            "Psychic",
+            "Normal"
+        ],
+        "access_rules": "|Glimwood Tangle Access|"
+    }
+]
+
             }
             
         ]

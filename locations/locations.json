@@ -8,12 +8,12 @@
                 ],
                 "sections": [
                     {
-                        "ref": "pokemon/Pokemon/All/Abomasnow",//when in a different file, use the ref to point to the location in the other file
+                        "ref": "Pokemon/Wanderers/Wanderer Abomasnow",//when in different file don't need to specify the .json file
                         "name": "Abomasnow"
                     },
                     {
-                        "ref": "pokemon/Pokemon/All/Skuntank",//can also ref in same file of course
-                        "name": "Skuntank"
+                        "ref": "Pokemon/Routes/Nincada",
+                        "name": "Nincada"
                     }//etc
                 ],
                 "map_locations": [

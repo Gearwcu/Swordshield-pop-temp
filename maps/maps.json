@@ -1,13 +1,37 @@
 [ //add extra map here as well as in layouts
     {
-        "name": "main_map",
-        "img": "images/maps/main_map.png",
+        "name": "Wild Area North",
+        "img": "images/maps/Wild north.png",
         "location_size": 50,
         "location_border_thickness": 1
     },
     {
-        "name": "Dex_map?",
-        "img": "images/maps/main_map.png",
+        "name": "Wild Area South",
+        "img": "images/maps/wild south.png",
+        "location_size": 20,
+        "location_border_thickness": 2
+    },
+    {
+        "name": "Route 1-2",
+        "img": "images/maps/route1-2.png",
+        "location_size": 20,
+        "location_border_thickness": 2
+    },
+    {
+        "name": "Route 3-5",
+        "img": "images/maps/route 3-5.png",
+        "location_size": 20,
+        "location_border_thickness": 2
+    },
+    {
+        "name": "Route 6-9",
+        "img": "images/maps/route 6-9.png",
+        "location_size": 20,
+        "location_border_thickness": 2
+    },
+    {
+        "name": "Route 10",
+        "img": "images/maps/route 10.png",
         "location_size": 20,
         "location_border_thickness": 2
     }

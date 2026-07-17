@@ -1,0 +1,13 @@
+{
+    "versions": [//used for auto-updating, add info into the x'ed out fields below on new release add new version above the old one
+        {
+            "package_version": "x",//0.0.1, 0.0.2, etc
+            "download_url": "x",
+            "sha256": "x", //gotten from release, copy without the "sha256:" part
+            "changelog": [
+                "x",
+                "x"
+            ]
+        }
+    ]
+}

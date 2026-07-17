@@ -1,23 +1,26 @@
 [
     {
-        "name": "Remove_weather_locations",
+        "name": "add_time_travel",
         "type": "toggle",
-        "img": "images/options/Remove_weather_locations.png",
-        "loop": true,
-        "codes": "Remove_weather_locations"
+        "img": "images/options/add_time_travel.png",
+        "codes": "add_time_travel"
     },
     {
-        "name": "Remove_weather_locations",
-        "loop": true,
-        "codes": "Remove_weather_locations",
+        "name": "berry_tree_sanity",
         "type": "toggle",
-        "img": "images/options/Remove_weather_locations.png"
+        "img": "images/options/berry_tree_sanity.png",
+        "codes": "berry_tree_sanity"
     },
     {
-        "name": "DLC_enabled",
-        "loop": true,
-        "codes": "DLC_enabled",
+        "name": "den_sanity",
         "type": "toggle",
-        "img": "images/options/DLC_enabled.png"
+        "img": "images/options/den_sanity.png",
+        "codes": "den_sanity"
+    },
+    {
+        "name": "remove_low_percentage",
+        "type": "toggle",
+        "img": "images/options/remove_low_percentage.png",
+        "codes": "remove_low_percentage"
     }
 ]

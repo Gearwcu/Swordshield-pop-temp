@@ -3,22 +3,32 @@
         "name": "Win Condition",
         "children": [
             {
-                "name": "__start__",
+                "name": "AllWin",
                 "access_rules": [],
                 "sections": [
                     {
-                        "name": "Eternatus",
+                        "name": "Mend The Broken Shards",
                         "item_count": 1,
+                        "visibility_rules": [
+                            
+                        ],
                         "access_rules": [
                             "broken_shards:10"
                         ]
+                    },
+                    {
+                        "name": "Type Researcher",
+                        "visibility_rules": [
+                            
+                        ],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "main_map",
-                        "x": 0,
-                        "y": 0
+                        "map": "Route 1-2",
+                        "x": 50,
+                        "y": 250
                     }//add extra map here to adjust map
                 ]
             }

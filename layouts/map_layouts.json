@@ -3,21 +3,83 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "Main Map",
+                "title": "Wild Area Map",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "main_map"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Wild Area North",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Wild Area North"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Wild Area South",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Wild Area South"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
-                "title": "Dex Map",
+                "title": "Route Maps",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Dex_map?"
+                    "type": "tabbed",
+                    "tabs":[
+                        {
+                            "title": "Route 1-2",
+                            "content": [
+                                {
+                                    "type": "map",
+                                    "maps": [
+                                        "Route 1-2"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Route 3-5",
+                            "content": [
+                                {
+                                    "type": "map",
+                                    "maps": [
+                                        "Route 3-5"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Route 6-9",
+                            "content": [
+                                {
+                                    "type": "map",
+                                    "maps": [
+                                        "Route 6-9"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Route 10",
+                            "content": [
+                                {
+                                    "type": "map",
+                                    "maps": [
+                                        "Route 10"
+                                    ]
+                                }
+                            ]
+                        }
+
                     ]
+
                 }
             }
         ]

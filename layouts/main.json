@@ -42,11 +42,29 @@
                 },
                 {
                   "type": "group",
-                  "header": "Locations",
+                  "header": "Wild Areas",
                   "dock": "left",
                   "content":{
                     "type": "layout",
-                    "key": "locations"
+                    "key": "wild_areas"
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Routes",
+                  "dock": "left",
+                  "content":{
+                    "type": "layout",
+                    "key": "routes"
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Types",
+                  "dock": "left",
+                  "content":{
+                    "type": "layout",
+                    "key": "types"
                   }
                 }
               ]

@@ -7,19 +7,12 @@
             {
     
                 "type": "itemgrid",
-                "h_alignment": "center",
+                "h_alignment": "left",
                 "item_size": 40,
                 "item_margin": "4,4",
                 "rows": [
                     [
-                        "progressive_bike",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
+                        "progressive_bike"
                     ]
                 ]
             }
@@ -33,14 +26,12 @@
             {
     
                 "type": "itemgrid",
-                "h_alignment": "center",
+                "h_alignment": "left",
                 "item_size": 40,
                 "item_margin": "4,4",
                 "rows": [
                     [
-                        "broken_shards",
-                        "",
-                        ""
+                        "broken_shards"
                     ]
                 ]
             }
@@ -53,7 +44,7 @@
         "content": [
             {
                 "type": "itemgrid",
-                "h_alignment": "center",
+                "h_alignment": "left",
                 "item_size": 40,
                 "item_margin": "4,4",
                 "rows": [
@@ -83,14 +74,14 @@
             }
         ]
     },
-    "locations": {
+    "wild_areas": {
         "type": "array",
         "orientation":"vertical",
         "margin": "0,0",
         "content": [
             {
                 "type": "itemgrid",
-                "h_alignment": "center",
+                "h_alignment": "left",
                 "item_size": 40,
                 "item_margin": "4,4",
                 "rows": [
@@ -99,7 +90,9 @@
                         "bridge_field",
                         "dappled_grove",
                         "dusty_bowl",
-                        "east_lake_axewell",
+                        "east_lake_axewell"
+                    ],
+                    [
                         "giants_cap",
                         "giants_mirror",
                         "giants_seat",
@@ -112,6 +105,8 @@
                         "south_lake_miloch",
                         "stony_wilderness",
                         "watchtower_ruins",
+                    ],
+                    [
                         "west_lake_axewell",
                         "rolling_fields",
                         "",
@@ -120,6 +115,74 @@
                     ]
                 ]
             }
+        ]
+    },
+    "routes": {
+        "type": "array",
+        "orientation":"vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_size": 40,
+                "item_margin": "4,4",
+                "rows": [
+                    [
+                        "route_1_access",
+                        "route_2_access",
+                        "route_3_access",
+                        "route_4_access",
+                        "route_5_access"
+                    ],
+                    [
+                        "route_6_access",
+                        "route_7_access",
+                        "route_8_access",
+                        "route_9_access",
+                        "route_10_access"
+                    ],
+                    [
+                        "galar_mine_access",
+                        "galar_mine_2_access",
+                        "slumbering_weald_access",
+                        "glimwood_tangle_access",
+                        "motostoke_outskirts_access"
+                    ]
+                ]
+            }
+        ]
+    },
+    "types": {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_size": 40,
+        "item_margin": "4,4",
+        "rows": [
+            [
+                "type_unlock_-_normal_type",
+                "type_unlock_-_fire_type",
+                "type_unlock_-_water_type",
+                "type_unlock_-_grass_type",
+                "type_unlock_-_electric_type",
+                "type_unlock_-_ice_type"
+            ],
+            [
+                "type_unlock_-_fighting_type",
+                "type_unlock_-_poison_type",
+                "type_unlock_-_ground_type",
+                "type_unlock_-_flying_type",
+                "type_unlock_-_psychic_type",
+                "type_unlock_-_bug_type"               
+            ],
+            [
+                "type_unlock_-_rock_type",
+                "type_unlock_-_ghost_type",
+                "type_unlock_-_dragon_type",
+                "type_unlock_-_dark_type",
+                "type_unlock_-_steel_type",
+                "type_unlock_-_fairy_type"
+            ]
         ]
     }
 }

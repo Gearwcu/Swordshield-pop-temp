@@ -15,10 +15,10 @@
             "margin": 10,
             "rows": [
                 [
-                    "Remove_weather_locations",
-                    /*don't know why 2*/"Remove_weather_locations",
-                    "DLC_enabled",
-                    ""
+                    "add_time_travel",
+                    "berry_tree_sanity",
+                    "den_sanity",
+                    "remove_low_percentage"
                 ]
             ]
         }

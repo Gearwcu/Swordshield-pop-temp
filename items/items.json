@@ -185,5 +185,203 @@
         "type": "toggle",
         "img": "images/items/noweather.png",
         "codes": "noweather"
+    },
+    {
+        "name": "Type Unlock - Normal Type",
+        "type": "toggle",
+        "img": "images/items/type_unlock_-_normal_type.png",
+        "codes": "type_unlock_-_normal_type"
+    },
+    {
+        "name": "Type Unlock - Fire Type",
+        "type": "toggle",
+        "img": "images/items/type_unlock_-_fire_type.png",
+        "codes": "type_unlock_-_fire_type"
+    },
+    {
+        "name": "Type Unlock - Water Type",
+        "type": "toggle",
+        "img": "images/items/type_unlock_-_water_type.png",
+        "codes": "type_unlock_-_water_type"
+    },
+    {
+        "name": "Type Unlock - Grass Type",
+        "type": "toggle",
+        "img": "images/items/type_unlock_-_grass_type.png",
+        "codes": "type_unlock_-_grass_type"
+    },
+    {
+        "name": "Type Unlock - Electric Type",
+        "type": "toggle",
+        "img": "images/items/type_unlock_-_electric_type.png",
+        "codes": "type_unlock_-_electric_type"
+    },
+    {
+        "name": "Type Unlock - Ice Type",
+        "type": "toggle",
+        "img": "images/items/type_unlock_-_ice_type.png",
+        "codes": "type_unlock_-_ice_type"
+    },
+    {
+        "name": "Type Unlock - Fighting Type",
+        "type": "toggle",
+        "img": "images/items/type_unlock_-_fighting_type.png",
+        "codes": "type_unlock_-_fighting_type"
+    },
+    {
+        "name": "Type Unlock - Poison Type",
+        "type": "toggle",
+        "img": "images/items/type_unlock_-_poison_type.png",
+        "codes": "type_unlock_-_poison_type"
+    },
+    {
+        "name": "Type Unlock - Ground Type",
+        "type": "toggle",
+        "img": "images/items/type_unlock_-_ground_type.png",
+        "codes": "type_unlock_-_ground_type"
+    },
+    {
+        "name": "Type Unlock - Flying Type",
+        "type": "toggle",
+        "img": "images/items/type_unlock_-_flying_type.png",
+        "codes": "type_unlock_-_flying_type"
+    },
+    {
+        "name": "Type Unlock - Psychic Type",
+        "type": "toggle",
+        "img": "images/items/type_unlock_-_psychic_type.png",
+        "codes": "type_unlock_-_psychic_type"
+    },
+    {
+        "name": "Type Unlock - Bug Type",
+        "type": "toggle",
+        "img": "images/items/type_unlock_-_bug_type.png",
+        "codes": "type_unlock_-_bug_type"
+    },
+    {
+        "name": "Type Unlock - Rock Type",
+        "type": "toggle",
+        "img": "images/items/type_unlock_-_rock_type.png",
+        "codes": "type_unlock_-_rock_type"
+    },
+    {
+        "name": "Type Unlock - Ghost Type",
+        "type": "toggle",
+        "img": "images/items/type_unlock_-_ghost_type.png",
+        "codes": "type_unlock_-_ghost_type"
+    },
+    {
+        "name": "Type Unlock - Dragon Type",
+        "type": "toggle",
+        "img": "images/items/type_unlock_-_dragon_type.png",
+        "codes": "type_unlock_-_dragon_type"
+    },
+    {
+        "name": "Type Unlock - Dark Type",
+        "type": "toggle",
+        "img": "images/items/type_unlock_-_dark_type.png",
+        "codes": "type_unlock_-_dark_type"
+    },
+    {
+        "name": "Type Unlock - Steel Type",
+        "type": "toggle",
+        "img": "images/items/type_unlock_-_steel_type.png",
+        "codes": "type_unlock_-_steel_type"
+    },
+    {
+        "name": "Type Unlock - Fairy Type",
+        "type": "toggle",
+        "img": "images/items/type_unlock_-_fairy_type.png",
+        "codes": "type_unlock_-_fairy_type"
+    },
+    {
+        "name": "Route 1 Access",
+        "type": "toggle",
+        "img": "images/items/route_1_access.png",
+        "codes": "route_1_access"
+    },
+    {
+        "name": "Route 2 Access",
+        "type": "toggle",
+        "img": "images/items/route_2_access.png",
+        "codes": "route_2_access"
+    },
+    {
+        "name": "Route 3 Access",
+        "type": "toggle",
+        "img": "images/items/route_3_access.png",
+        "codes": "route_3_access"
+    },
+    {
+        "name": "Route 4 Access",
+        "type": "toggle",
+        "img": "images/items/route_4_access.png",
+        "codes": "route_4_access"
+    },
+    {
+        "name": "Route 5 Access",
+        "type": "toggle",
+        "img": "images/items/route_5_access.png",
+        "codes": "route_5_access"
+    },
+    {
+        "name": "Route 6 Access",
+        "type": "toggle",
+        "img": "images/items/route_6_access.png",
+        "codes": "route_6_access"
+    },
+    {
+        "name": "Route 7 Access",
+        "type": "toggle",
+        "img": "images/items/route_7_access.png",
+        "codes": "route_7_access"
+    },
+    {
+        "name": "Route 8 Access",
+        "type": "toggle",
+        "img": "images/items/route_8_access.png",
+        "codes": "route_8_access"
+    },
+    {
+        "name": "Route 9 Access",
+        "type": "toggle",
+        "img": "images/items/route_9_access.png",
+        "codes": "route_9_access"
+    },
+    {
+        "name": "Route 10 Access",
+        "type": "toggle",
+        "img": "images/items/route_10_access.png",
+        "codes": "route_10_access"
+    },
+    {
+        "name": "Galar Mine Access",
+        "type": "toggle",
+        "img": "images/items/galar_mine_access.png",
+        "codes": "galar_mine_access"
+    },
+    {
+        "name": "Galar Mine 2 Access",
+        "type": "toggle",
+        "img": "images/items/galar_mine_2_access.png",
+        "codes": "galar_mine_2_access"
+    },
+    {
+        "name": "Slumbering Weald Access",
+        "type": "toggle",
+        "img": "images/items/slumbering_weald_access.png",
+        "codes": "slumbering_weald_access"
+    },
+    {
+        "name": "Glimwood Tangle Access",
+        "type": "toggle",
+        "img": "images/items/glimwood_tangle_access.png",
+        "codes": "glimwood_tangle_access"
+    },
+    {
+        "name": "Motostoke Outskirts Access",
+        "type": "toggle",
+        "img": "images/items/motostoke_outskirts_access.png",
+        "codes": "motostoke_outskirts_access"
     }
 ]

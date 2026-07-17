@@ -1,9 +1,9 @@
 [// underneath sections is which map you find it on, you can have multiple sections
     {
-        "name": "Special overworld spawn",
+        "name": "Pokemon",
         "children": [
             {
-                "name": "__start__",
+                "name": "All",
                 "access_rules": [],
                 "sections": [
                     {
@@ -17,9 +17,6 @@
                             "hammerlocke_hills, snowstorm",
                             "axews_eye, progressive_bike_2, snowing",
                             "axews_eye, progressive_bike_2, snowstorm"
-                        ],
-                        "visibility_rules": [
-                            "$negate|Remove_weather_locations"
                         ]
                     },
                     {
@@ -2123,6 +2120,28 @@
                     {
                         "map": "Dex_map?",
                         "x": 100,
+                        "y": 30
+                    }
+                ]
+            },
+            {
+                "name": "Route 1",
+                "access_rules": [
+                ],
+                "sections": [
+                    {
+                        "ref": "All/Abomasnow",//when in a different file, use the ref to point to the location in the other file, follow with this after
+                        "name": "Abomasnow"
+                    },
+                    {
+                        "ref": "All/Skuntank",
+                        "name": "Skuntank"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Route 1-2",
+                        "x": 0,
                         "y": 30
                     }
                 ]

@@ -3,7 +3,7 @@
         "name": "Win Condition",
         "children": [
             {
-                "name": "AllWin",
+                "name": "Win",
                 "access_rules": [],
                 "sections": [
                     {

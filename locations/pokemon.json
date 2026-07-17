@@ -26,7 +26,7 @@
                             "fog, giants_cap"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -37,7 +37,7 @@
                             "stony_wilderness, thunderstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -48,7 +48,7 @@
                             "lake_of_outrage, progressive_bike_2, snowstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -60,7 +60,7 @@
                             "dusty_bowl, thunderstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -71,7 +71,7 @@
                             "bridge_field, progressive_bike_2, snowing"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -86,7 +86,7 @@
                             "bridge_field, fog"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -98,7 +98,7 @@
                             "fog, giants_mirror"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -179,7 +179,7 @@
                             "fog, stony_wilderness"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -189,7 +189,7 @@
                             "intense_sun, lake_of_outrage, progressive_bike_2"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -201,7 +201,7 @@
                             "fog, giants_cap"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -221,7 +221,7 @@
                             "sandstorm, stony_wilderness"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -231,7 +231,7 @@
                             "fog, motostoke_riverbank"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -262,7 +262,7 @@
                             "fog, motostoke_riverbank"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -357,7 +357,7 @@
                             "south_lake_miloch, thunderstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -375,7 +375,7 @@
                             "fog, stony_wilderness"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -412,7 +412,7 @@
                             "giants_cap, sandstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -428,7 +428,7 @@
                             "motostoke_riverbank, sandstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -474,7 +474,7 @@
                             "progressive_bike_2, snowstorm, south_lake_miloch"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -520,7 +520,7 @@
                             "dusty_bowl, fog"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -562,7 +562,7 @@
                             "lake_of_outrage, overcast, progressive_bike_2"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -573,7 +573,7 @@
                             "giants_cap, sandstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -599,7 +599,7 @@
                             "intense_sun, lake_of_outrage, progressive_bike_2"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -610,7 +610,7 @@
                             "dusty_bowl, sandstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -641,7 +641,7 @@
                             "bridge_field, progressive_bike_2, sandstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -692,7 +692,7 @@
                             "fog, lake_of_outrage, progressive_bike_2"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -708,7 +708,7 @@
                             "giants_cap, sandstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -719,7 +719,7 @@
                             "dusty_bowl, intense_sun"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -730,7 +730,7 @@
                             "lake_of_outrage, progressive_bike_2, snowstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -745,7 +745,7 @@
                             "snowstorm, watchtower_ruins"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -758,7 +758,7 @@
                             "giants_cap, raining"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -803,7 +803,7 @@
                             "fog, hammerlocke_hills"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -891,7 +891,7 @@
                             "fog, watchtower_ruins"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -922,7 +922,7 @@
                             "axews_eye, fog, progressive_bike_2"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -932,7 +932,7 @@
                             "lake_of_outrage, progressive_bike_2, thunderstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -943,7 +943,7 @@
                             "normal_weather, south_lake_miloch"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -953,7 +953,7 @@
                             "fog, rolling_fields"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -966,7 +966,7 @@
                             "hammerlocke_hills, snowing"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -979,7 +979,7 @@
                             "hammerlocke_hills, sandstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -994,7 +994,7 @@
                             "dusty_bowl, fog"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1009,7 +1009,7 @@
                             "dusty_bowl, fog"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1019,7 +1019,7 @@
                             "lake_of_outrage, normal_weather, progressive_bike_2"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1061,7 +1061,7 @@
                             "normal_weather, north_lake_miloch"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1075,7 +1075,7 @@
                             "dappled_grove, fog"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1091,7 +1091,7 @@
                             "fog, giants_mirror"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1117,7 +1117,7 @@
                             "rolling_fields, thunderstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1127,7 +1127,7 @@
                             "rolling_fields, snowstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1137,7 +1137,7 @@
                             "bridge_field, fog"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1158,7 +1158,7 @@
                             "giants_seat, intense_sun"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1169,7 +1169,7 @@
                             "bridge_field, fog, progressive_bike_2"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1195,7 +1195,7 @@
                             "bridge_field, snowing"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1212,7 +1212,7 @@
                             "bridge_field, fog"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1286,7 +1286,7 @@
                             "fog, west_lake_axewell"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1306,7 +1306,7 @@
                             "intense_sun, rolling_fields"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1335,7 +1335,7 @@
                             "intense_sun, lake_of_outrage, progressive_bike_2"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1361,7 +1361,7 @@
                             "rolling_fields, thunderstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1376,7 +1376,7 @@
                             "dusty_bowl, snowstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1390,7 +1390,7 @@
                             "fog, west_lake_axewell"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1431,7 +1431,7 @@
                             "fog, motostoke_riverbank"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1446,7 +1446,7 @@
                             "fog, rolling_fields"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1457,7 +1457,7 @@
                             "fog, hammerlocke_hills"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1496,7 +1496,7 @@
                             "axews_eye, progressive_bike_2, thunderstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1510,7 +1510,7 @@
                             "dappled_grove, fog"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1522,7 +1522,7 @@
                             "lake_of_outrage, progressive_bike_2, thunderstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1588,7 +1588,7 @@
                             "fog, south_lake_miloch"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1605,7 +1605,7 @@
                             "motostoke_riverbank, sandstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1647,7 +1647,7 @@
                             "dusty_bowl, fog"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1657,7 +1657,7 @@
                             "fog, lake_of_outrage, progressive_bike_2"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1689,7 +1689,7 @@
                             "fog, stony_wilderness"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1699,7 +1699,7 @@
                             "lake_of_outrage, progressive_bike_2, sandstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1712,7 +1712,7 @@
                             "overcast, stony_wilderness"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1725,7 +1725,7 @@
                             "north_lake_miloch, snowstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1746,7 +1746,7 @@
                             "progressive_bike_2, snowstorm, west_lake_axewell"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1756,7 +1756,7 @@
                             "lake_of_outrage, progressive_bike_2, raining"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1766,7 +1766,7 @@
                             "normal_weather, rolling_fields"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1779,7 +1779,7 @@
                             "giants_seat, sandstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1802,7 +1802,7 @@
                             "hammerlocke_hills, sandstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1812,7 +1812,7 @@
                             "bridge_field, progressive_bike_2, snowstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1841,7 +1841,7 @@
                             "fog, north_lake_miloch"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1871,7 +1871,7 @@
                             "progressive_bike_2, sandstorm, south_lake_miloch"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -1889,7 +1889,7 @@
                             "progressive_bike_2, thunderstorm, west_lake_axewell"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -2012,7 +2012,7 @@
                             "fog, progressive_bike_2, south_lake_miloch"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -2025,7 +2025,7 @@
                             "fog, progressive_bike_2, west_lake_axewell"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -2036,7 +2036,7 @@
                             "fog, lake_of_outrage, progressive_bike_2"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -2063,7 +2063,7 @@
                             "fog, progressive_bike_2, west_lake_axewell"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -2094,7 +2094,7 @@
                             "progressive_bike_2, south_lake_miloch, thunderstorm"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     },
                     {
@@ -2107,36 +2107,692 @@
                             "fog, progressive_bike_2, south_lake_miloch"
                         ],
                         "visibility_rules": [
-                            "$negate|Remove_weather_locations"
+                            "$negateRemove_weather_locations"
                         ]
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "main_map",
-                        "x": 25,
-                        "y": 0
-                    },
-                    {
-                        "map": "Dex_map?",
-                        "x": 100,
-                        "y": 30
-                    }
                 ]
+            }
+            
+        ]
+    },
+    {
+        "name": "Dens",
+        "children": [
+            {
+                "name": "All",
+                "sections":[
+        {
+        "name": "Axew's Eye - Den 1",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Axew's Eye, Progressive bike:2"
+    },
+    {
+        "name": "Rolling Fields - Den 1",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Rolling Fields"
+    },
+    {
+        "name": "Rolling Fields - Den 2",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Rolling Fields"
+    },
+    {
+        "name": "Rolling Fields - Den 3",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Rolling Fields"
+    },
+    {
+        "name": "Rolling Fields - Den 4",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Rolling Fields"
+    },
+    {
+        "name": "Rolling Fields - Den 5",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Rolling Fields"
+    },
+    {
+        "name": "Rolling Fields - Den 6",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Rolling Fields"
+    },
+    {
+        "name": "Rolling Fields - Den 7",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Rolling Fields"
+    },
+    {
+        "name": "Rolling Fields - Den 8",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Rolling Fields"
+    },
+    {
+        "name": "Rolling Fields - Den 9",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Rolling Fields"
+    },
+    {
+        "name": "Dappled Grove - Den 1",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Dappled Grove"
+    },
+    {
+        "name": "Dappled Grove - Den 2",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Dappled Grove"
+    },
+    {
+        "name": "Dappled Grove - Den 3",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Dappled Grove"
+    },
+    {
+        "name": "Dappled Grove - Den 4",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Dappled Grove"
+    },
+    {
+        "name": "Dappled Grove - Den 5",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Dappled Grove"
+    },
+    {
+        "name": "West Lake Axewell - Den 1",
+        "visibility_rules": ["Dens"],
+        "access_rules": "West Lake Axewell"
+    },
+    {
+        "name": "West Lake Axewell - Den 2",
+        "visibility_rules": ["Dens"],
+        "access_rules": "West Lake Axewell"
+    },
+    {
+        "name": "West Lake Axewell - Den 3",
+        "visibility_rules": ["Dens"],
+        "access_rules": "West Lake Axewell"
+    },
+    {
+        "name": "West Lake Axewell - Den 4",
+        "visibility_rules": ["Dens"],
+        "access_rules": "West Lake Axewell"
+    },
+    {
+        "name": "West Lake Axewell - Den 5",
+        "visibility_rules": ["Dens"],
+        "access_rules": "West Lake Axewell, Progressive bike:2"
+    },
+    {
+        "name": "West Lake Axewell - Den 6",
+        "visibility_rules": ["Dens"],
+        "access_rules": "West Lake Axewell, Progressive bike:2"
+    },
+    {
+        "name": "Watchtower Ruins - Den 1",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Watchtower Ruins"
+    },
+    {
+        "name": "Watchtower Ruins - Den 2",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Watchtower Ruins"
+    },
+    {
+        "name": "East Lake Axewell - Den 1",
+        "visibility_rules": ["Dens"],
+        "access_rules": "East Lake Axewell"
+    },
+    {
+        "name": "East Lake Axewell - Den 2",
+        "visibility_rules": ["Dens"],
+        "access_rules": "East Lake Axewell"
+    },
+    {
+        "name": "East Lake Axewell - Den 3",
+        "visibility_rules": ["Dens"],
+        "access_rules": "East Lake Axewell"
+    },
+    {
+        "name": "East Lake Axewell - Den 4",
+        "visibility_rules": ["Dens"],
+        "access_rules": "East Lake Axewell"
+    },
+    {
+        "name": "East Lake Axewell - Den 5",
+        "visibility_rules": ["Dens"],
+        "access_rules": "East Lake Axewell, Progressive bike:2"
+    },
+    {
+        "name": "North Lake Miloch - Den 1",
+        "visibility_rules": ["Dens"],
+        "access_rules": "North Lake Miloch"
+    },
+    {
+        "name": "North Lake Miloch - Den 2",
+        "visibility_rules": ["Dens"],
+        "access_rules": "North Lake Miloch"
+    },
+    {
+        "name": "North Lake Miloch - Den 3",
+        "visibility_rules": ["Dens"],
+        "access_rules": "North Lake Miloch"
+    },
+    {
+        "name": "North Lake Miloch - Den 4",
+        "visibility_rules": ["Dens"],
+        "access_rules": "North Lake Miloch"
+    },
+    {
+        "name": "North Lake Miloch - Den 5",
+        "visibility_rules": ["Dens"],
+        "access_rules": "North Lake Miloch, Progressive bike:2"
+    },
+    {
+        "name": "North Lake Miloch - Den 6",
+        "visibility_rules": ["Dens"],
+        "access_rules": "North Lake Miloch, Progressive bike:2"
+    },
+    {
+        "name": "Giant's Seat - Den 1",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Giant's Seat"
+    },
+    {
+        "name": "Giant's Seat - Den 2",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Giant's Seat"
+    },
+    {
+        "name": "Giant's Seat - Den 3",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Giant's Seat"
+    },
+    {
+        "name": "Giant's Seat - Den 4",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Giant's Seat"
+    },
+    {
+        "name": "Giant's Seat - Den 5",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Giant's Seat"
+    },
+    {
+        "name": "South Lake Miloch - Den 1",
+        "visibility_rules": ["Dens"],
+        "access_rules": "South Lake Miloch"
+    },
+    {
+        "name": "South Lake Miloch - Den 2",
+        "visibility_rules": ["Dens"],
+        "access_rules": "South Lake Miloch"
+    },
+    {
+        "name": "South Lake Miloch - Den 3",
+        "visibility_rules": ["Dens"],
+        "access_rules": "South Lake Miloch, Progressive bike:2"
+    },
+    {
+        "name": "South Lake Miloch - Den 4",
+        "visibility_rules": ["Dens"],
+        "access_rules": "South Lake Miloch, Progressive bike:2"
+    },
+    {
+        "name": "South Lake Miloch - Den 5",
+        "visibility_rules": ["Dens"],
+        "access_rules": "South Lake Miloch, Progressive bike:2"
+    },
+    {
+        "name": "Motostoke Riverbank - Den 1",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Motostoke Riverbank"
+    },
+    {
+        "name": "Motostoke Riverbank - Den 2",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Motostoke Riverbank"
+    },
+    {
+        "name": "Motostoke Riverbank - Den 3",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Motostoke Riverbank"
+    },
+    {
+        "name": "Motostoke Riverbank - Den 4",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Motostoke Riverbank"
+    },
+    {
+        "name": "Bridge Field - Den 1",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Bridge Field"
+    },
+    {
+        "name": "Bridge Field - Den 2",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Bridge Field"
+    },
+    {
+        "name": "Bridge Field - Den 3",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Bridge Field"
+    },
+    {
+        "name": "Bridge Field - Den 4",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Bridge Field, Progressive bike:2"
+    },
+    {
+        "name": "Bridge Field - Den 5",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Bridge Field"
+    },
+    {
+        "name": "Bridge Field - Den 6",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Bridge Field"
+    },
+    {
+        "name": "Bridge Field - Den 7",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Bridge Field"
+    },
+    {
+        "name": "Bridge Field - Den 8",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Bridge Field"
+    },
+    {
+        "name": "Bridge Field - Den 9",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Bridge Field"
+    },
+    {
+        "name": "Stony Wilderness - Den 1",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Stony Wilderness"
+    },
+    {
+        "name": "Stony Wilderness - Den 2",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Stony Wilderness"
+    },
+    {
+        "name": "Stony Wilderness - Den 3",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Stony Wilderness"
+    },
+    {
+        "name": "Stony Wilderness - Den 4",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Stony Wilderness"
+    },
+    {
+        "name": "Stony Wilderness - Den 5",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Stony Wilderness"
+    },
+    {
+        "name": "Stony Wilderness - Den 6",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Stony Wilderness"
+    },
+    {
+        "name": "Stony Wilderness - Den 7",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Stony Wilderness"
+    },
+    {
+        "name": "Stony Wilderness - Den 8",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Stony Wilderness"
+    },
+    {
+        "name": "Stony Wilderness - Den 9",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Stony Wilderness"
+    },
+    {
+        "name": "Stony Wilderness - Den 10",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Stony Wilderness"
+    },
+    {
+        "name": "Stony Wilderness - Den 11",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Stony Wilderness"
+    },
+    {
+        "name": "Stony Wilderness - Den 12",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Stony Wilderness"
+    },
+    {
+        "name": "Giant's Mirror - Den 1",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Giant's Mirror"
+    },
+    {
+        "name": "Giant's Mirror - Den 2",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Giant's Mirror"
+    },
+    {
+        "name": "Giant's Mirror - Den 3",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Giant's Mirror"
+    },
+    {
+        "name": "Giant's Mirror - Den 4",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Giant's Mirror"
+    },
+    {
+        "name": "Giant's Mirror - Den 5",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Giant's Mirror"
+    },
+    {
+        "name": "Dusty Bowl - Den 1",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Dusty Bowl"
+    },
+    {
+        "name": "Dusty Bowl - Den 2",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Dusty Bowl"
+    },
+    {
+        "name": "Dusty Bowl - Den 3",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Dusty Bowl"
+    },
+    {
+        "name": "Dusty Bowl - Den 4",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Dusty Bowl"
+    },
+    {
+        "name": "Dusty Bowl - Den 5",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Dusty Bowl, Progressive bike:2"
+    },
+    {
+        "name": "Dusty Bowl - Den 6",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Dusty Bowl"
+    },
+    {
+        "name": "Dusty Bowl - Den 7",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Dusty Bowl"
+    },
+    {
+        "name": "Dusty Bowl - Den 8",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Dusty Bowl"
+    },
+    {
+        "name": "Dusty Bowl - Den 9",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Dusty Bowl"
+    },
+    {
+        "name": "Hammerlocke Hills - Den 1",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Hammerlocke Hills"
+    },
+    {
+        "name": "Hammerlocke Hills - Den 2",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Hammerlocke Hills"
+    },
+    {
+        "name": "Hammerlocke Hills - Den 3",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Hammerlocke Hills"
+    },
+    {
+        "name": "Hammerlocke Hills - Den 4",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Hammerlocke Hills"
+    },
+    {
+        "name": "Hammerlocke Hills - Den 5",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Hammerlocke Hills"
+    },
+    {
+        "name": "Hammerlocke Hills - Den 6",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Hammerlocke Hills"
+    },
+    {
+        "name": "Hammerlocke Hills - Den 7",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Hammerlocke Hills"
+    },
+    {
+        "name": "Giant's Cap - Den 1",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Giant's Cap"
+    },
+    {
+        "name": "Giant's Cap - Den 2",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Giant's Cap"
+    },
+    {
+        "name": "Giant's Cap - Den 3",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Giant's Cap"
+    },
+    {
+        "name": "Giant's Cap - Den 4",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Giant's Cap"
+    },
+    {
+        "name": "Giant's Cap - Den 5",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Giant's Cap"
+    },
+    {
+        "name": "Lake of Outrage - Den 1",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Lake of Outrage, Progressive bike:2"
+    },
+    {
+        "name": "Lake of Outrage - Den 2",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Lake of Outrage, Progressive bike:2"
+    },
+    {
+        "name": "Lake of Outrage - Den 3",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Lake of Outrage, Progressive bike:2"
+    },
+    {
+        "name": "Lake of Outrage - Den 4",
+        "visibility_rules": ["Dens"],
+        "access_rules": "Lake of Outrage, Progressive bike:2"
+    }
+]
+}
+
+        ]
+    },
+    {
+        "name": "Trees",
+        "children": [
+        { 
+        "name": "All",    
+        "sections":[
+                {
+            "name": "Berry Tree - Route 3",
+            "visibility_rules": [],
+            "access_rules": "Route 3 Access"
             },
+            {
+                "name": "Berry Tree - Route 4",
+                "visibility_rules": ["Routes", "BerryTrees"],
+                "access_rules": "Route 4 Access"
+            },
+            {
+                "name": "Berry Tree - Route 5",
+                "visibility_rules": ["Routes", "BerryTrees"],
+                "access_rules": "Route 5 Access"
+            },
+            {
+                "name": "Berry Tree - Route 6",
+                "visibility_rules": ["Routes", "BerryTrees"],
+                "access_rules": "Route 6 Access"
+            },
+            {
+                "name": "Berry Tree 1 - Route 7",
+                "visibility_rules": ["Routes", "BerryTrees"],
+                "access_rules": "Route 7 Access"
+            },
+            {
+                "name": "Berry Tree 2 - Route 7",
+                "visibility_rules": ["Routes", "BerryTrees"],
+                "access_rules": "Route 7 Access"
+            },
+            {
+                "name": "Berry Tree 1 - Route 9",
+                "visibility_rules": ["Routes", "BerryTrees"],
+                "access_rules": "Route 9 Access"
+            },
+            {
+                "name": "Berry Tree 2 - Route 9",
+                "visibility_rules": ["Routes", "BerryTrees"],
+                "access_rules": "Route 9 Access, Progressive bike:2"
+            },
+            {
+                "name": "Berry Tree - Axew's Eye",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Axew's Eye, Progressive bike:2"
+            },
+            {
+                "name": "Berry Tree 1 - Bridge Field",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Bridge Field"
+            },
+            {
+                "name": "Berry Tree 2 - Bridge Field",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Bridge Field"
+            },
+            {
+                "name": "Berry Tree 3 - Bridge Field",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Bridge Field"
+            },
+            {
+                "name": "Berry Tree 4 - Bridge Field",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Bridge Field, Progressive bike:2"
+            },
+            {
+                "name": "Berry Tree 1 - Dappled Grove",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Dappled Grove"
+            },
+            {
+                "name": "Berry Tree 2 - Dappled Grove",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Dappled Grove"
+            },
+            {
+                "name": "Berry Tree 3 - Dappled Grove",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Dappled Grove"
+            },
+            {
+                "name": "Berry Tree 4 - Dappled Grove",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Dappled Grove"
+            },
+            {
+                "name": "Berry Tree 1 - Giant's Cap",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Giant's Cap"
+            },
+            {
+                "name": "Berry Tree - Giant's Mirror",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Giant's Mirror"
+            },
+            {
+                "name": "Berry Tree - Giant's Seat",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Giant's Seat"
+            },
+            {
+                "name": "Berry Tree 1 - Hammerlocke Hills",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Hammerlocke Hills"
+            },
+            {
+                "name": "Berry Tree 2 - Hammerlocke Hills",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Hammerlocke Hills"
+            },
+            {
+                "name": "Berry Tree - Lake of Outrage",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Lake of Outrage, Progressive bike:2"
+            },
+            {
+                "name": "Berry Tree 1 - Motostoke Riverbank",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Motostoke Riverbank"
+            },
+            {
+                "name": "Berry Tree 2 - Motostoke Riverbank",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Motostoke Riverbank"
+            },
+            {
+                "name": "Berry Tree - North Lake Miloch",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "North Lake Miloch"
+            },
+            {
+                "name": "Berry Tree 1 - Rolling Fields",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Rolling Fields"
+            },
+            {
+                "name": "Berry Tree 2 - Rolling Fields",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Rolling Fields"
+            },
+            {
+                "name": "Berry Tree - Watchtower Ruins",
+                "visibility_rules": ["Wild Area", "BerryTrees"],
+                "access_rules": "Watchtower Ruins"
+            }
+        ]
+    }
+
+        ]
+    },
+    {
+        "name": "locations",
+        "children":[
             {
                 "name": "Route 1",
                 "access_rules": [
                 ],
                 "sections": [
                     {
-                        "ref": "All/Abomasnow",//when in a different file, use the ref to point to the location in the other file, follow with this after
+                        "ref": "Pokemon/All/Abomasnow",//when in a different file, use the ref to point to the location in the other file, follow with this after
                         "name": "Abomasnow"
                     },
                     {
-                        "ref": "All/Skuntank",
+                        "ref": "Pokemon/All/Skuntank",
                         "name": "Skuntank"
-                    }
+                    }//etc
                 ],
                 "map_locations": [
                     {

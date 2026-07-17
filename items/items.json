@@ -61,6 +61,11 @@
         "codes": "snowstorm"
     },
     {
+        "name": "&snow",
+        "type": "toggle",
+        "codes": "snowstorm, snowing"
+    },
+    {
         "name": "Intense Sun",
         "type": "toggle",
         "img": "images/items/intense_sun.png",

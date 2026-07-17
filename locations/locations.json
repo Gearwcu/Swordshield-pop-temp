@@ -1,0 +1,29 @@
+[
+        {
+        "name": "locations",
+        "children":[
+            {
+                "name": "Route 1",
+                "access_rules": [
+                ],
+                "sections": [
+                    {
+                        "ref": "pokemon/Pokemon/All/Abomasnow",//when in a different file, use the ref to point to the location in the other file
+                        "name": "Abomasnow"
+                    },
+                    {
+                        "ref": "pokemon/Pokemon/All/Skuntank",//can also ref in same file of course
+                        "name": "Skuntank"
+                    }//etc
+                ],
+                "map_locations": [
+                    {
+                        "map": "Route 1-2",
+                        "x": 0,
+                        "y": 30
+                    }
+                ]
+            }
+        ]
+    }
+]
